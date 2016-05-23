@@ -2,7 +2,6 @@
     "name": "magento2translations/language_el_gr",
     "description": "Greek (Ελληνικά) Magento2 Language Pack (el_GR) - From Magento2Translations",
     "homepage": "http://magento2translations.github.io/",
-    "version": "100.0.0",
     "license": [
         "MIT"
     ],
