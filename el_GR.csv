@@ -6759,6 +6759,8 @@ Debug,Αποσφαλμάτωση,module,Magento_Usps
 "Sort Order","Σειρά Ταξινόμησης",module,Magento_Usps
 "Variable ID","ID Μεταβλητής",module,Magento_Variable
 Name,Όνομα,module,Magento_Variable
+"Web API Security","Ασφάλεια Web API",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access","Επιτρέψτε την Πρόσβαση σε Ανώνυμους Επισκέπτες",module,Magento_WebapiSecurity
 "SOAP Settings","Ρυθμίσεις SOAP",module,Magento_Webapi
 "Default Response Charset","Προεπιλογμένη Απάντηση Σύνολοχαρακτήρων",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Εάν είναι κενό, θα χρησιμοποιηθεί το UTF-8.",module,Magento_Webapi
