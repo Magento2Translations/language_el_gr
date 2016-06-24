@@ -1142,7 +1142,6 @@ State/Province,Νομός/επαρχία,module,Magento_Checkout
 "My Cart (1 item)","Το καλάθι μου (1 στοιχείο)",module,Magento_Checkout
 "My Cart (%1 items)","Το καλάθι μου (%1 αντικείμενα)",module,Magento_Checkout
 "My Cart","Το καλάθι μου",module,Magento_Checkout
-"Minimum order amount is %1","Ελάχιστο ποσό παραγγελίας είναι %1",module,Magento_Checkout
 "Customer is already registered","Ο πελάτης είναι ήδη εγγεγραμένος",module,Magento_Checkout
 "Your session has expired","Η περίοδος λειτουργίας έχει λήξει",module,Magento_Checkout
 "You added %1 to your shopping cart.","Προσθέσατε %1 στο καλάθι αγορών σας.",module,Magento_Checkout
@@ -2798,9 +2797,6 @@ Yes,Ναί,module,Magento_Payment
 No,Όχι,module,Magento_Payment
 "Expiration Date","Ημερομηνία Λήξης",module,Magento_Payment
 "Card Verification Number","Αριθμός Επικύρωσης Κάρτας",module,Magento_Payment
-"Switch/Solo/Maestro Only","Switch/Solo/Maestro Μόνο",module,Magento_Payment
-"Issue Number","Αριθμός Έκδοσης",module,Magento_Payment
-"Start Date","Ημερομηνία έναρξης",module,Magento_Payment
 "Please Select","Παρακαλώ Επιλέξτε",module,Magento_Payment
 "--Please Select--","--Παρακαλώ επιλέξτε--",module,Magento_Payment
 "Card Verification Number Visual Reference","Οπτική αναφορά αριθμού επαλήθευσης κάρτας",module,Magento_Payment
