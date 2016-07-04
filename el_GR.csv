@@ -357,6 +357,7 @@ Country,Χώρα,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Ο τύπος πιστωτικής κάρτας δεν επιτρέπεται για αυτήν τη μέθοδο πληρωμής.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Ο επιλεγμένος τύπος πληρωμής δεν επιτρέπεται για τιμολόγηση σε αυτήν την χώρα.",module,Magento_Braintree
 "Please try again later","Παρακαλώ δοκιμάστε ξανά αργότερα",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","Αυτή η επιστροφή είναι για μια μερική ποσότητα αλλά η συναλλαγή δεν έχει διευθετηθεί.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Περιμένετε 24 ώρες πρίν προσπαθήσετε να εκδώσετε μια μερική επιστροφή χρημάτων.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Ορισμένες συναλλαγές είναι ήδη σε διευθέτηση ή ακυρώθηκαν και δεν μπορούν να ακυρωθούν.",module,Magento_Braintree
 "Invalid Customer ID provided","Μη έγκυρο ID πελάτη που δόθηκε",module,Magento_Braintree
