@@ -1532,6 +1532,8 @@ Add,Προσθήκη,module,Magento_Config
 "Delete File","Διαγραφή αρχείου",module,Magento_Config
 "Search String","Συμβολοσειρά αναζήτησης",module,Magento_Config
 "Design Theme","Σχεδίαση Θέματος",module,Magento_Config
+"Add \Exception","Προσθήκη \Εξαίρεσης",module,Magento_Config
+"-- No Theme --","--Χωρίς Θέμα--",module,Magento_Config
 Enable,Ενεργοποίηση,module,Magento_Config
 Disable,Απενεργοποίηση,module,Magento_Config
 Configuration,"Ρύθμιση παραμέτρων",module,Magento_Config
