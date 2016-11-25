@@ -241,7 +241,7 @@ Order,Παραγγελία,module,Magento_Backend
 "Order #%1","Παραγγελία #%1",module,Magento_Backend
 "Access denied","Δεν επιτρέπεται η πρόσβαση",module,Magento_Backend
 "If you continue to receive this message, please contact the store owner.","Εάν εξακολουθείτε να λαμβάνετε αυτό το μήνυμα, παρακαλούμε επικοινωνήστε με την διέυθυνση του καταστήματος.",module,Magento_Backend
-"Welcome, please sign in","Καλώς ήρθατε, παρακαλώ κάντε σύνδεση",module,Magento_Backend
+"Welcome, please sign in","Καλώς ήρθατε, παρακαλώ συνδεθείτε",module,Magento_Backend
 "user name","όνομα χρήστη",module,Magento_Backend
 password,"κωδικός πρόσβασης",module,Magento_Backend
 "Sign in",Σύνδεση,module,Magento_Backend
