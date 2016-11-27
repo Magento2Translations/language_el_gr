@@ -292,7 +292,7 @@ Order,Παραγγελία,module,Magento_Backend
 "Please try to sign out and sign in again.","Παρακαλώ προσπαθήστε να αποσυνδεθείτε και να συνδεθείτε ξανά.",module,Magento_Backend
 "If you continue to receive this message, please contact the store owner.","Εάν εξακολουθείτε να λαμβάνετε αυτό το μήνυμα, παρακαλούμε επικοινωνήστε με την διέυθυνση του καταστήματος.",module,Magento_Backend
 "You need more permissions to access this.","Χρειάζεστε περισσότερα δικαιώματα για να αποκτήσετε πρόσβαση σε αυτό.",module,Magento_Backend
-"Welcome, please sign in","Καλώς ήρθατε, παρακαλώ κάντε σύνδεση",module,Magento_Backend
+"Welcome, please sign in","Καλώς ήρθατε, παρακαλώ συνδεθείτε",module,Magento_Backend
 Username,"Όνομα Χρήστη",module,Magento_Backend
 "user name","όνομα χρήστη",module,Magento_Backend
 Password,"Κωδικός πρόσβασης",module,Magento_Backend
