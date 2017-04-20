@@ -5830,6 +5830,7 @@ Cancel,Άκυρο,module,Magento_Checkout
 Login,Σύνδεση,module,Magento_Checkout
 item,στοιχείο,module,Magento_Checkout
 items,στοιχεία,module,Magento_Checkout
+"Go to Checkout","Προχωρήστε στην Αγορά",module,Magento_Checkout
 "See Details","Δείτε λεπτομέρειες",module,Magento_Checkout
 "Options Details","Λεπτομέρειες Επιλογών",module,Magento_Checkout
 Remove,Διαγραφή,module,Magento_Checkout
