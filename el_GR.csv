@@ -5854,6 +5854,7 @@ edit,επεξεργασία,module,Magento_Checkout
 Next,Επόμενο,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Συγνώμη, δεν υπάρχουν διαθέσιμες προσφορές για αυτήν την παραγγελία αυτή τη στιγμή",module,Magento_Checkout
 "Order Summary","Σύνοψη Παραγγελίας",module,Magento_Checkout
+"Item in Cart","Στοιχείο στο καλάθι",module,Magento_Checkout
 "View Details","Προβολή λεπτομερειών",module,Magento_Checkout
 "Contact Form","Φόρμα Επικοινωνίας",module,Magento_Contact
 "Name: %name","Όνομα: %name",module,Magento_Contact
