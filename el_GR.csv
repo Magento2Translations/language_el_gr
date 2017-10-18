@@ -5860,10 +5860,12 @@ Password:,"Κωδικός πρόσβασης:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Αν δεν έχετε κάνει αυτό το αίτημα, μπορείτε να αγνοήσετε αυτό το email και ο κωδικός πρόσβασής σας θα παραμείνει ο ίδιος.",module,Magento_Customer
 "Your %store_name password has been changed","Ο κωδικός πρόσβασης στο %store_name έχει αλλάξει",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Έχουμε λάβει μια αίτηση για να αλλάξετε τις παρακάτω πληροφορίες που σχετίζονται με το λογαριασμό σας στο %store_name: κωδικός πρόσβασης.",module,Magento_Customer
+"Checkout out as a new customer","Ολοκλήρωση Παραγγελίας ως νέος πελάτης",module,Magento_Customer
 "Creating an account has many benefits:","Η δημιουργία ενός λογαριασμού έχει πολλά πλεονεκτήματα:",module,Magento_Customer
 "See order and shipping status","Δείτε τη παραγγελία και την κατάσταση της αποστολής",module,Magento_Customer
 "Track order history","Ιστορικό παρακολουθησης παραγγελιών",module,Magento_Customer
 "Check out faster","Ολοκλήρωση Παραγγελίας πιο γρήγορα",module,Magento_Customer
+"Checkout out using your account","Ολοκλήρωση Παραγγελίας χρησιμοποιώντας το λογαριασμό σας",module,Magento_Customer
 "Email Address","Διεύθυνση Email",module,Magento_Customer
 "Currency Update Warnings","Προειδοποιήσεις ενημέρωσης νομίσματος",module,Magento_Directory
 Footer,Υποσέλιδο,module,Magento_Email
@@ -6874,6 +6876,7 @@ Currency,Νόμισμα,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Αφήστε κενό για την προεπιλογή (15 λεπτά).",module,Magento_Customer
 "Customer Notification","Ειδοποίηση Πελάτη",module,Magento_Customer
 "Assign a Customer Group","Αντιστοιχίσετε μια Ομάδα Πελατών",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Είστε βέβαιοι ότι για την αντιστοίχιση των επιλεγμένων πελατών σε νέα ομάδα;",module,Magento_Customer
 "Customer Grid","Πλέγμα πελάτη",module,Magento_Customer
 "Rebuild Customer grid index","Αναδημιουργία ευρετηρίου πλέγματος πελάτη",module,Magento_Customer
 Group,Ομάδα,module,Magento_Customer
