@@ -47,6 +47,7 @@ Close,Κλείσιμο,module,Magento_AdminNotification
 "Order saving error: %1","Σφάλμα αποθήκευσης παραγγελίας: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Παρακαλώ επιλέξτε μια μέθοδο πληρωμής.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Δεν μπορούμε να επεξεργαστούμε την παραγγελία σας αυτή τη στιγμή. Παρακαλώ προσπαθήστε ξανά αργότερα.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Παρουσιάστηκε σφάλμα στο διακομιστή. Παρακαλώ ξανά δοκιμάστε την παραγγελία.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Πιστωτική κάρτα: xxxx-%1",module,Magento_Authorizenet
 "amount %1","ποσό %1",module,Magento_Authorizenet
 failed.,απέτυχε.,module,Magento_Authorizenet
@@ -75,7 +76,9 @@ void,άκυρη,module,Magento_Authorizenet
 "Authorize Only","Εξουσιοδότηση Μόνο",module,Magento_Authorizenet
 "Authorize and Capture","Εξουσιοδότηση και Δέσμευση",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Δεν μπορούμε να βρούμε τις λεπτομέρειες της συναλλαγής. Προσπαθήστε ξανά αργότερα.",module,Magento_Authorizenet
+"Electronic payments save the trees.","Ηλεκτρονικές πληρωμές σώστε τα δέντρα.",module,Magento_Authorizenet
 "Credit Card Type","Είδος Πιστωτικής Κάρτας",module,Magento_Authorizenet
+"Please Select","Παρακαλώ Επιλέξτε",module,Magento_Authorizenet
 "Credit Card Number","Αριθμός πιστωτικής κάρτας",module,Magento_Authorizenet
 "Expiration Date","Ημερομηνία Λήξης",module,Magento_Authorizenet
 "Card Verification Number","Αριθμός Επικύρωσης Κάρτας",module,Magento_Authorizenet
@@ -232,6 +235,7 @@ Submit,Υποβολή,module,Magento_Backend
 "You flushed the cache storage.","Αδειάσατε την μνήμη cache αποθήκευσης.",module,Magento_Backend
 "The Magento cache storage has been flushed.","Η μνήμη αποθήκευσης Magento cache έχει αδειάσει.",module,Magento_Backend
 "Cache Management","Διαχείριση της μνήμης cache",module,Magento_Backend
+"You can't change status of cache type(s) in production mode","Δεν μπορείτε να αλλάξετε την κατάσταση του/των τύπου(ων) προσορινής αποθήκευσης σε λειτουργία παραγωγής",module,Magento_Backend
 "%1 cache type(s) disabled.","%1 τύπος(οι) προσωρινής αποθήκευσης απενεργοποιημένα.",module,Magento_Backend
 "An error occurred while disabling cache.","Παρουσιάστηκε σφάλμα κατά την απενεργοποίηση της μνήμης cache.",module,Magento_Backend
 "%1 cache type(s) enabled.","%1 τύπος(οι) προσωρινής αποθήκευσης ενεργοποιημένα.",module,Magento_Backend
@@ -332,6 +336,7 @@ Minute,Λεπτό,module,Magento_Backend
 "JavaScript may be disabled in your browser.","Η JavaScript φαίνεται να είναι απενεργοποιημένη στο πρόγραμμα περιήγησης σας.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Για να χρησιμοποιείτε αυτή την ιστοσελίδα πρέπει πρώτα να ενεργοποιήσετε την JavaScript στον περιηγητή σας.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Αυτό είναι μόνο ένα δοκιμαστικό κατάστημα. Μπορείτε να περιηγηθείτε και να υποβάλλετε παραγγελίες, αλλά τίποτα δεν θα επεξεργαστεί.",module,Magento_Backend
+"Report an Issue","Αναφέρετε ένα Πρόβλημα",module,Magento_Backend
 "Store View:","Προβολή Καταστήματος:",module,Magento_Backend
 "Stores Configuration","Διαμόρφωση καταστημάτων",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Παρακαλώ επιβεβαιώστε την εναλλαγή πεδίου εφαρμογής. Όλα τα δεδομένα που δεν έχουν αποθηκευτεί θα χαθούν.",module,Magento_Backend
@@ -449,6 +454,9 @@ Authorize,Εξουσιοδότηση,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Παρακαλούμε, εισάγετε έγκυρο αριθμό επαλήθευσης κάρτας",module,Magento_Braintree
 ending,λήγει,module,Magento_Braintree
 expires,λήγει,module,Magento_Braintree
+"Are you sure you want to delete this PayPal account","Είστε σίγουρος ότι θέλετε να διαγράψετε αυτό το PayPal λογαριασμό",module,Magento_Braintree
+"PayPal Account","Λογαριασμός PayPal",module,Magento_Braintree
+"PayPal Logo","Λογότυπο PayPal",module,Magento_Braintree
 Actions,Ενέργειες,module,Magento_Braintree
 Delete,Διαγραφή,module,Magento_Braintree
 "Percent Discount","Ποσοστό Έκπτωσης",module,Magento_Bundle
@@ -563,6 +571,7 @@ Always,Πάντα,module,Magento_Captcha
 "Entity type model '%1' is not found","Τύπος μοντέλο οντότητας '%1' δεν βρέθηκε",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Ο τύπος μοντέλου οντότητας πρέπει να είναι ένα παράδειγμα του \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Δεν Υπάρχουν τύποι του προϊόντος για εξαγωγή.",module,Magento_CatalogImportExport
+"'Entity type model must be an instance of ' .","'Ο τύπος μοντέλου οντότητας πρέπει να είναι ενα αντίγραφο του '.",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Η Κατηγορία ""%1"" δεν έχει δημιουργηθεί.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Ο κατάλογος του αρχείου '%1' δεν είναι αναγνώσιμος.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Ο κατάλογος του αρχείου '%1' δεν είναι εγγράψιμος.",module,Magento_CatalogImportExport
@@ -658,6 +667,7 @@ Catalog,Κατάλογος,module,Magento_CatalogRule
 "Unable to remove rule %1","Δεν είναι δυνατή η κατάργηση του κανόνα %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Δεν είναι δυνατή η αναδημιουργία ευρετηρίου για έναν κενό πίνακα προϊόντων",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Δεν είναι δυνατή η δημιουργία ξανά του ευρετηρίου για ένα προϊόν που δεν έχει οριστεί.",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","Η δημιουργία ευρετηρίου κανόνα καταλόγου απέτυχε. Δείτε λεπτομέρειες στο αρχείο καταγραφής εξαίρεσης.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","Το ποσοστό έκπτωση πρέπει να είναι μεταξύ 0 και 100.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","Η τιμή έκπτωσης πρέπει να είναι 0 ή μεγαλύτερη.",module,Magento_CatalogRule
 "Unknown action.","Άγνωστη ενέργεια.",module,Magento_CatalogRule
@@ -683,6 +693,7 @@ All,Όλα,module,Magento_CatalogSearch
 Yes,Ναί,module,Magento_CatalogSearch
 No,Όχι,module,Magento_CatalogSearch
 Results,Αποτελέσματα,module,Magento_CatalogSearch
+"Advanced Search Results","Αποτελέσματα Σύνθετης Αναζήτησης",module,Magento_CatalogSearch
 Grid,Πλέγμα,module,Magento_CatalogSearch
 List,Λίστα,module,Magento_CatalogSearch
 "Search Weight","Αναζήτηση Βάρους",module,Magento_CatalogSearch
@@ -692,6 +703,7 @@ Relevance,Συναφή,module,Magento_CatalogSearch
 "Please specify at least one search term.","Παρακαλώ προσδιορίστε τουλάχιστον έναν όρο αναζήτησης.",module,Magento_CatalogSearch
 "%1 and greater","%1 και μεγαλύτερο",module,Magento_CatalogSearch
 "up to %1","μέχρι %1",module,Magento_CatalogSearch
+". "" which is inconsistent with state of scope resolver""",". "" που δεν είναι συμβατό με την κατάσταση της επίλυσης πεδίου εφαρμογής""",module,Magento_CatalogSearch
 Category,Κατηγορία,module,Magento_CatalogSearch
 "%1 and above","%1 και άνω",module,Magento_CatalogSearch
 "Sorry, something went wrong. You can find out more in the error log.","Συγνώμη, κάτι πήγε στραβά. Μπορείτε να μάθετε περισσότερα στο αρχείο καταγραφής σφαλμάτων.",module,Magento_CatalogSearch
@@ -708,6 +720,7 @@ name,όνομα,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Δεν βλέπετε αυτό που ψάχνετε;",module,Magento_CatalogSearch
 "Your search returned no results.","Η αναζήτησή σας δεν είχε αποτελέσματα.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Δημιουργία Μόνιμης Ανακατευθηνσης για την παλιά διεύθυνση URL",module,Magento_CatalogUrlRewrite
+"Invalid URL key","Μη έγκυρο κλειδί διεύθυνσης URL",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Συνδυασμός Συνθηκών",module,Magento_CatalogWidget
 "Product Attribute","Χαρακτηριστικό Προϊόντος",module,Magento_CatalogWidget
 SKU,Κωδικός,module,Magento_CatalogWidget
@@ -899,6 +912,7 @@ None,Κανένα,module,Magento_Catalog
 Categories,Kατηγορίες,module,Magento_Catalog
 "Category is not available for requested store.","Δεν υπάρχει κατηγορία για το ζητούμενο κατάστημα.",module,Magento_Catalog
 "There was a category move error.","Υπήρξε ένα λάθος στην μετακίνηση κατηγορίας.",module,Magento_Catalog
+"You moved the category.","Μετακινήσατε την κατηγορία.",module,Magento_Catalog
 "Attribute ""%1"" is required.","Το Χαρακτηριστικό ""%1"" είναι απαραίτητο.",module,Magento_Catalog
 "You saved the category.","Μετακινήσατε την κατηγορία.",module,Magento_Catalog
 "Something went wrong while saving the category.","Κάτι πήγε στραβά κατά την αποθήκευση της κατηγορίας.",module,Magento_Catalog
@@ -923,6 +937,7 @@ Catalog,Κατάλογος,module,Magento_Catalog
 "You saved the product attribute.","Αποθηκεύσατε το χαρακτηριστικό του προϊόντος.",module,Magento_Catalog
 "An attribute with this code already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με αυτόν τον κώδικα.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με τον ίδιο κωδικό (%1).",module,Magento_Catalog
+"The value of Admin must be unique.","Η τιμή του Διαχειριστή πρέπει να είναι μοναδική.",module,Magento_Catalog
 "You duplicated the product.","Κλωνοποιήσατε το προϊόν.",module,Magento_Catalog
 "This product doesn't exist.","Αυτό το προϊόν δεν υπάρχει.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Το id προϊόντος δεν είναι έγκυρο. Θα πρέπει να είναι αριθμητική τιμή μεγαλύτερη από 0",module,Magento_Catalog
@@ -951,6 +966,7 @@ Products,Προϊόντα,module,Magento_Catalog
 "You removed product %1 from the comparison list.","Αφαιρέσατε το προϊόν %1 από τη λίστα σύγκρισης.",module,Magento_Catalog
 "1 item","1 είδος",module,Magento_Catalog
 "%1 items","%1 είδη",module,Magento_Catalog
+"Are you sure you want to remove all items from your Compare Products list?","Είστε βέβαιοι ότι θέλετε να καταργήσετε όλα τα στοιχεία από τη Λίστα Σύγκρης Προϊόντων σας;",module,Magento_Catalog
 "Invalid attribute %1","Μη έγκυρο χαρακτηριστικό %1",module,Magento_Catalog
 Grid,Πλέγμα,module,Magento_Catalog
 List,Λίστα,module,Magento_Catalog
@@ -987,6 +1003,7 @@ All,Όλα,module,Magento_Catalog
 Manual,Χειροκίνητα,module,Magento_Catalog
 Fixed,Σταθερή,module,Magento_Catalog
 Percent,Ποσοστό,module,Magento_Catalog
+Discount,Έκπτωση,module,Magento_Catalog
 "-- Please select --","--Παρακαλώ επιλέξτε--",module,Magento_Catalog
 "Product Thumbnail Itself","Μικρογραφία Ίδιου Προϊόντος",module,Magento_Catalog
 "Parent Product Thumbnail","Μικρογραφία Γονικού Προϊόντος",module,Magento_Catalog
@@ -1028,6 +1045,7 @@ Category,Κατηγορία,module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Ο κωδικός του προϊόντος πρέπει να είναι %1 χαρακτήρες μέγιστο.",module,Magento_Catalog
 "Please enter a valid number in this field.","Παρακαλούμε εισάγετε έναν έγκυρο αριθμό σε αυτό το πεδίο.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","Βρήκαμε μια διπλότυπη τοποθεσία Web, τιμή βαθμίδας, ομάδα πελατών και ποσότητα.",module,Magento_Catalog
+"Percentage value must be a number between 0 and 100.","Η ποσοστιαία τιμή πρέπει να είναι ένας αριθμός μεταξύ 0 και 100.",module,Magento_Catalog
 "Invalid option id %1","Μη έγκυρη επιλογή id %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Δεν μπορούμε να δημιουργήσουμε το σύνολο χαρακτηριστικών βάσει μη σύνολου χαρακτηριστικών προϊόντος.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Δεν μπορούμε να δημιουργήσουμε το σύνολο χαρακτηριστικών βάσει μη υπάρχοντος σύνολου χαρακτηριστικών προϊόντος",module,Magento_Catalog
@@ -1073,6 +1091,9 @@ Disabled,Απενεργοποιημένο,module,Magento_Catalog
 "The file is empty. Please choose another one","Το αρχείο είναι κενό. Παρακαλείστε να επιλέξετε κάποιο άλλο",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Μερικές από τις επιλογές του επιλεγμένου στοιχείου δεν είναι διαθέσιμες αυτή τη στιγμή.",module,Magento_Catalog
 "The text is too long.","Το κείμενο είναι πολύ μεγάλο.",module,Magento_Catalog
+"Invalid attribute %fieldName = %fieldValue.","Μη έγκυρο χαρακτηριστικό %fieldName = %fieldValue.",module,Magento_Catalog
+"Could not save Prices.","Αδύνατη η αποθήκευση Τιμών.",module,Magento_Catalog
+"Could not delete Prices","Αδυναμία διαγραφής Τιμών",module,Magento_Catalog
 "This product doesn't have tier price","Αυτό το προϊόν δεν έχει βαθμίδα τιμής",module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Το προϊόν δεν έχει ομάδα τιμής με τέτοια δεδομένα: customerGroupId = '%1', ιστοσελίδα = %2, ποσ = %3",module,Magento_Catalog
 "Invalid data provided for tier_price","Μη έγκυρα δεδομένα για tier_price",module,Magento_Catalog
@@ -1116,6 +1137,8 @@ Search,Αναζήτηση,module,Magento_Catalog
 Dropdown,"Αναπτυσσόμενο μενού",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 δεν επεκτείνει το \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Τόσο χαμηλά όσο",module,Magento_Catalog
+test,δοκιμή,module,Magento_Catalog
+"Some exception","Κάποια εξαίρεση",module,Magento_Catalog
 message,μήνυμα,module,Magento_Catalog
 Images,εικόνες,module,Magento_Catalog
 Select...,Επιλέξτε...,module,Magento_Catalog
@@ -1495,6 +1518,8 @@ Exception,Εξαίρεση,module,Magento_Cms
 "Could not create a directory.","Δεν είναι δυνατή η δημιουργία καταλόγου.",module,Magento_Cms
 Edit,Επεξεργασία,module,Magento_Cms
 Delete,Διαγραφή,module,Magento_Cms
+"Delete %1","Διαγραφή %1",module,Magento_Cms
+"Are you sure you want to delete a %1 record?","Είστε βέβαιοι ότι θέλετε να διαγράψετε μια εγγραφή %1;",module,Magento_Cms
 "All Store Views","Όλες οι Προβολές Καταστήματος",module,Magento_Cms
 View,Προβολή,module,Magento_Cms
 "No files found","Δεν βρέθηκαν αρχεία",module,Magento_Cms
@@ -1546,6 +1571,7 @@ System,Σύστημα,module,Magento_Config
 "Currency ""%1"" is used as %2 in %3.","Νόμισμα ""%1"" χρησιμοποιείται ως %2 σε %3.",module,Magento_Config
 "Please correct the timezone.","Παρακαλώ διορθώστε τη ζώνη ώρας.",module,Magento_Config
 "The file ""%1"" does not exist","Δεν υπάρχει το αρχείο ""%1""",module,Magento_Config
+"The ""%1"" path does not exist","Δεν υπάρχει η διαδρομή ""%1""",module,Magento_Config
 "Always (during development)","Πάντα (κατά τη διάρκεια της ανάπτυξης)",module,Magento_Config
 "Only Once (version upgrade)","Μόνο μια φορά (έκδοση αναβάθμισης)",module,Magento_Config
 "Never (production)","Ποτέ (παραγωγή)",module,Magento_Config
@@ -1566,6 +1592,9 @@ Yes,Ναί,module,Magento_Config
 Specified,Καθορίστηκαν,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Το μοντέλο κλόνου συνόλου πεδίων ρυθμίσεων απαιτείται για να κλωνοποιήσετε τα πεδία",module,Magento_Config
 "Invalid XML in file %1:\n%2","Μη έγκυρο XML στο αρχείο %1:\n%2",module,Magento_Config
+"Some error","Κάποιο λάθος",module,Magento_Config
+"Some message","Κάποιο μήνυμα",module,Magento_Config
+"error message","μήνυμα σφάλματος",module,Magento_Config
 "some prefix","κάποιο πρόθεμα",module,Magento_Config
 "element label","ετικέτα στοιχείου",module,Magento_Config
 "element hint","υπόδειξη στοιχείου",module,Magento_Config
@@ -1641,6 +1670,7 @@ Actions,Ενέργειες,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Το χαρακτηριστικό αυτό χρησιμοποιείται σε διαμορφώσιμα προϊόντα. Δεν μπορείτε να το καταργήσετε από το σύνολο χαρακτηριστικών.",module,Magento_ConfigurableProduct
 "Associated Products","Συσχετιζόμενα προϊόντα",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Βήμα 2: Τιμές χαρακτηριστικού",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unique product SKU.","Μπορείτε να επιλέξετε τιμές από κάθε χαρακτηριστικό για να συμπεριληφθεί σε αυτό το προϊόν. Κάθε μοναδικός συνδυασμός τιμών δημιουργεί ένα μοναδικό SKU προϊόντος.",module,Magento_ConfigurableProduct
 "Sort Variations","Ταξινόμηση Παραλλαγών",module,Magento_ConfigurableProduct
 Options,Επιλογές,module,Magento_ConfigurableProduct
 "Select All","Επιλογή όλων",module,Magento_ConfigurableProduct
@@ -1686,8 +1716,14 @@ Select,Επιλογή,module,Magento_ConfigurableProduct
 "Remove Product","Αφαίρεση Προϊόντος",module,Magento_ConfigurableProduct
 "Create Product Configurations","Δημιουργήστε διαμορφώσεις προϊόντος",module,Magento_ConfigurableProduct
 Cancel,Άκυρο,module,Magento_ConfigurableProduct
+"Special Price","Ειδική Τιμή",module,Magento_ConfigurableProduct
+"Regular Price","Κανονική Τιμή",module,Magento_ConfigurableProduct
 "Page not found.","Η σελίδα δεν βρέθηκε.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Σας ευχαριστούμε που επικοινωνήσατε μαζί μας με τα σχόλια και τις ερωτήσεις. Θα σας απαντήσουμε πολύ σύντομα.",module,Magento_Contact
+"An error occurred while processing your form. Please try again later.","Κάτι πήγε στραβά κατά την επεξεργασία της φόρμας σας. Παρακαλώ δοκιμάστε ξανά αργότερα.",module,Magento_Contact
+"Name is missing","Λείπει το όνομα",module,Magento_Contact
+"Comment is missing","Λείπει το σχόλιο",module,Magento_Contact
+"Invalid email address","Μη έγκυρη διεύθυνση email",module,Magento_Contact
 "* Required Fields","* Απαιτούμενα πεδία",module,Magento_Contact
 "Write Us","Γράψτε μας",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","Στείλτε μας μια σημείωση και εμείς θα σας απαντήσουμε όσο το δυνατόν συντομότερα.",module,Magento_Contact
@@ -1710,6 +1746,8 @@ Monthly,Μηνιαία,module,Magento_Cron
 "Invalid cron expression, expecting 'match/modulus': %1","Μη έγκυρη έκφραση cron, περιμένοντας 'match/modulus': %1",module,Magento_Cron
 "Invalid cron expression, expecting numeric modulus: %1","Μη έγκυρη έκφραση cron, περιμένοντας numeric modulus': %1",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Μη έγκυρη έκφραση cron, περιμένοντας 'from-to' δομή: %1",module,Magento_Cron
+"Some error","Κάποιο λάθος",module,Magento_Cron
+"Test exception","Δοκιμαστική εξαίρεση",module,Magento_Cron
 "Save Currency Rates","Αποθήκευση Ισοτιμιών Νομισμάτων",module,Magento_CurrencySymbol
 Options,Επιλογές,module,Magento_CurrencySymbol
 Reset,Επαναφορά,module,Magento_CurrencySymbol
@@ -1746,6 +1784,8 @@ System,Σύστημα,module,Magento_CurrencySymbol
 "Please enter a password with a valid length.","Παρακαλώ εισάγετε έναν κωδικό πρόσβασης με ένα έγκυρο μήκος.",module,Magento_CustomerImportExport
 "Sign Out",Αποσύνδεση,module,Magento_Customer
 "Sign In",Σύνδεση,module,Magento_Customer
+"You are subscribed to our newsletter.","Έχετε εγγραφεί στο ενημερωτικό δελτίο μας.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Δεν έχετε εγγραφεί στο ενημερωτικό δελτίο μας.",module,Magento_Customer
 "You have not set a default shipping address.","Δεν έχετε ορίσει κάποια προεπιλεγμένη διεύθυνση αποστολής.",module,Magento_Customer
 "You have not set a default billing address.","Δεν έχετε ορίσει κάποια προεπιλεγμένη διεύθυνση χρέωσης.",module,Magento_Customer
 "Address Book","Βιβλίο Διευθύνσεων",module,Magento_Customer
@@ -1863,6 +1903,7 @@ Download,Λήψη,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Αν είστε εγγεγραμμένος πελάτης Φόρου, παρακαλώ κάντε κλικ <a href=""%1"">εδώ</a> για να εισαγάγετε τη διεύθυνση χρέωσής σας για σωστό υπολογισμό Φόρου.",module,Magento_Customer
 "Account Information","Πληροφορίες Λογαριασμού",module,Magento_Customer
 "You saved the account information.","Αποθηκεύσατε τις πληροφορίες λογαριασμού.",module,Magento_Customer
+"You did not sign in correctly or your account is temporarily disabled.","Δεν συνδεθήκατε σωστά ή ο λογαριασμός σας έχει απενεργοποιηθεί προσωρινά.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Η επιβεβαίωση κωδικού πρόσβασης δεν συμφωνεί με τον εισαχθέντα κωδικό πρόσβασης.",module,Magento_Customer
 "The password doesn't match this account.","Ο κωδικός πρόσβασης δεν συμφωνεί με αυτόν το λογαριασμό.",module,Magento_Customer
 "Please correct the email address.","Παρακαλώ διορθώστε τη διεύθυνση email.",module,Magento_Customer
@@ -1885,6 +1926,7 @@ Download,Λήψη,module,Magento_Customer
 "Please correct the quote items and try again.","Διορθώστε τα στοιχεία παράθεσης και προσπαθήστε ξανά.",module,Magento_Customer
 "You have revoked the customer's tokens.","Έχετε ανακαλέσει τα διακριτικά του πελάτη.",module,Magento_Customer
 "We can't find a customer to revoke.","Δεν βρέθηκε πελάτης για ανάκληση.",module,Magento_Customer
+"Something went wrong while saving file.","Κάτι πήγε στραβά κατά την αποθήκευση αρχείου.",module,Magento_Customer
 "You deleted the customer group.","Έχετε διαγράψει την ομάδα πελατών.",module,Magento_Customer
 "The customer group no longer exists.","Η ομάδα του πελάτη δεν υπάρχει πλέον.",module,Magento_Customer
 Customers,Πελάτες,module,Magento_Customer
@@ -1925,6 +1967,7 @@ Customers,Πελάτες,module,Magento_Customer
 "Please enter a password with at least %1 characters.","Παρακαλώ εισάγετε έναν κωδικό πρόσβασης με τουλάχιστον %1 χαρακτήρες.",module,Magento_Customer
 "The password can't begin or end with a space.","Ο κωδικός πρόσβασης δεν μπορεί να αρχίζει ή να τελειώνει με ένα κενό χαρακτήρα.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Το ελάχιστο διαφορετικών κατηγοριών χαρακτήρων στο κωδικό πρόσβασης είναι %1. Κατηγορίες χαρακτήρων: πεζά γράμματα, κεφαλαία γράμματα, ψηφία, ειδικοί χαρακτήρες.",module,Magento_Customer
+"Password cannot be the same as email address.","Ο Κωδικός πρόσβασης δεν μπορεί να είναι ο ίδιος με τη διεύθυνση ηλεκτρονικού ταχυδρομείου.",module,Magento_Customer
 "This customer already exists in this store.","Σε αυτό το κατάστημα υπάρχει ήδη αυτός ο πελάτης.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Ένας πελάτης με την ίδια διεύθυνση email υπάρχει ήδη σε αυτόν τον ιστότοπο.",module,Magento_Customer
 "%fieldName is a required field.","%fieldName είναι ένα απαιτούμενο πεδίο.",module,Magento_Customer
@@ -1943,6 +1986,10 @@ Global,Παγκόσμια,module,Magento_Customer
 Admin,Διαχειριστής,module,Magento_Customer
 "ALL GROUPS","ΟΛΕΣ ΟΙ ΟΜΑΔΕΣ",module,Magento_Customer
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Καμία τέτοια οντότητα με %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
+"File can not be saved to the destination folder.","Δεν μπορεί να αποθηκευτεί το αρχείο στο φάκελο προορισμού.",module,Magento_Customer
+"Unable to create directory %1.","Δεν είναι δυνατή η δημιουργία καταλόγου %1.",module,Magento_Customer
+"Destination folder is not writable or does not exists.","Ο φάκελος προορισμού δεν είναι εγγράψιμος ή δεν υπάρχει.",module,Magento_Customer
+"Something went wrong while saving the file.","Κάτι πήγε στραβά κατά την αποθήκευση του αρχείου.",module,Magento_Customer
 "Attribute object is undefined","Αντικείμενο χαρακτηριστικό δεν έχει οριστεί",module,Magento_Customer
 """%1"" invalid type entered.","μη έγκυρος τύπος ""%1"" εισάχθηκε.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" περιέχει μη-αλφαβητικούς ή μη αριθμητικούς χαρακτήρες.",module,Magento_Customer
@@ -2009,6 +2056,8 @@ InputException,"Εξαίρεση Εισαγωγής",module,Magento_Customer
 "some error","κάποιο λάθος",module,Magento_Customer
 "NOT LOGGED IN","ΔΕΝ ΕΙΣΤΕ ΣΥΝΔΕΔΕΜΕΝΟΙ",module,Magento_Customer
 "Please enter the state/province.","Παρακαλούμε εισάγετε το νομό/επαρχία.",module,Magento_Customer
+"region is a required field.","τμήμα είναι υποχρεωτικό πεδίο.",module,Magento_Customer
+"regionId is a required field.","id τμήματος είναι υποχρεωτικό πεδίο.",module,Magento_Customer
 Label,Ετικέτα,module,Magento_Customer
 Select...,Επιλέξτε...,module,Magento_Customer
 Edit,Επεξεργασία,module,Magento_Customer
@@ -2039,6 +2088,7 @@ Change,Αλλαγή,module,Magento_Customer
 "Contact Information","Στοιχεία Επικοινωνίας",module,Magento_Customer
 "Change Password","Αλλαγή Κωδικού Πρόσβασης",module,Magento_Customer
 Newsletters,"Ενημερωτικά Δελτία",module,Magento_Customer
+"You are subscribed to ""General Subscription"".","Μπορείτε να εγγραφείτε στην ""Γενική συνδρομή"".",module,Magento_Customer
 or,ή,module,Magento_Customer
 "Default Addresses","Προεπιλεγμένες Διευθύνσεις",module,Magento_Customer
 "Change Billing Address","Αλλάξτε τη Διεύθυνση Χρέωσης",module,Magento_Customer
@@ -2098,7 +2148,12 @@ Gender,Φύλο,module,Magento_Customer
 Name,Όνομα,module,Magento_Customer
 "Tax/VAT number",Α.Φ.Μ.,module,Magento_Customer
 "Phone Number","Αριθμός Τηλεφώνου",module,Magento_Customer
+"Import failed: %1","Απέτυχε η εισαγωγή: %1",module,Magento_Deploy
+"Value can't be empty","Η τιμή δεν μπορεί να είναι κενή",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","Δεν είναι δυνατή η μετάβαση σε συγκεκριμένη λειτουργία ""%1""",module,Magento_Deploy
+"Wrong queue type specified.","Έχει καθοριστεί λάθος τύπος ουράς.",module,Magento_Deploy
+"Some error","Κάποιο λάθος",module,Magento_Deploy
+"some message","κάποιο μήνυμα",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Δεν υποστηρίζεται η μορφή για IDE '%1'",module,Magento_Developer
 "Client side less compilation","Μεταγλώττιση less σε μεριά Πελάτη",module,Magento_Developer
 "Server side less compilation","Μεταγλώττιση less σε μεριά Διακομιστή",module,Magento_Developer
@@ -2232,6 +2287,7 @@ Shareable,Κοινόχρηστο,module,Magento_Downloadable
 Samples,Δείγματα,module,Magento_Downloadable
 "Use Default Value","Χρησιμοποιήστε την Προεπιλεγμένη Τιμή",module,Magento_Downloadable
 sample,δείγμα,module,Magento_Downloadable
+"Is this a downloadable Product?","Πρόκειται για προϊόν με δυνατότητα λήψης;",module,Magento_Downloadable
 "Add links to your product files here.","Μπορείτε να προσθέσετε συνδέσμους στα αρχεία του προϊόντος σας εδώ.",module,Magento_Downloadable
 "[STORE VIEW]","[ΠΡΟΒΟΛΗ ΚΑΤΑΣΤΗΜΑΤΟΣ]",module,Magento_Downloadable
 [GLOBAL],[ΚΑΘΟΛΙΚΟ],module,Magento_Downloadable
@@ -2398,6 +2454,7 @@ label,ετικέτα,module,Magento_Eav
 "Attribute with the same code","Χαρακτηριστικό με τον ίδιο κωδικό",module,Magento_Eav
 "The storefront label is not defined.","Δεν έχει οριστεί η ετικέτα της Βιτρίνας Καταστήματος.",module,Magento_Eav
 "Default option value is not defined","Δεν έχει οριστεί η προεπιλεγμένη τιμή επιλογής",module,Magento_Eav
+"Attribute group with same code already exist. Please rename ""%1"" group","Υπάρχει ήδη ομαδα χαρακτηριστικών με τον ίδιο κωδικό. Παρακαλώ μετονομάστε ομάδα ""%1""",module,Magento_Eav
 "Form Element with the same attribute","Στοιχείο της φόρμας με το ίδιο χαρακτηριστικό",module,Magento_Eav
 "Form Fieldset with the same code","Σύνολο πεδίων φόρμας με τον ίδιο κωδικό",module,Magento_Eav
 "Form Type with the same code","Τύπος φόρμας με τον ίδιο κωδικό",module,Magento_Eav
@@ -2405,6 +2462,7 @@ label,ετικέτα,module,Magento_Eav
 "Wrong entity ID","Λάθος ID οντότητας",module,Magento_Eav
 "Wrong attribute set ID","Λάθος ID συνόλου χαρακτηριστικών",module,Magento_Eav
 "Wrong attribute group ID","Λάθος ID ομάδας χαρακτηριστικού",module,Magento_Eav
+"Attribute with ID: ""%1"" does not exist","Δεν υπάρχει χαρακτηριστικό με ID: ""%1""",module,Magento_Eav
 "AttributeSet does not exist.","Σύνολο Χαρακτηριστικών δεν υπάρχει.",module,Magento_Eav
 hello,"γεια σου",module,Magento_Eav
 "Some internal exception message.","Κάποια εσωτερικό μήνυμα εξαίρεσης.",module,Magento_Eav
@@ -2478,6 +2536,7 @@ City,Πόλη,module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
 "CSS inlining error:","Εσωτερικό CSS σφάλμα:",module,Magento_Email
 "Error filtering template: %s","Σφάλμα φιλτραρίσματος προτύπου: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this content.","Λυπούμαστε, Παρουσιάστηκε ένα σφάλμα κατά τη δημιουργία αυτού του περιεχομένου.",module,Magento_Email
 "Invalid sender data","Μη έγκυρα δεδομένα αποστολέα",module,Magento_Email
 Title,Τίτλος,module,Magento_Email
 "Load default template","Φόρτωση προεπιλεγμένου προτύπου",module,Magento_Email
@@ -2556,6 +2615,7 @@ OK,Οκ,module,Magento_GiftMessage
 "Gift Options","Επιλογές δώρου",module,Magento_GiftMessage
 "Gift Message","Mήνυμα Δώρου",module,Magento_GiftMessage
 "Do you have any gift items in your order?","Έχετε οποιαδήποτε είδη δώρων στην παραγγελία σας;",module,Magento_GiftMessage
+"Add Gift Options","Προσθέστε Επιλογές Δώρων",module,Magento_GiftMessage
 "Gift Options for the Entire Order","Επιλογές δώρου για το Όλη την Παραγγελία",module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Αφήστε αυτό το πλαίσιο κενό αν δεν θέλετε να αφήσετε ένα μήνυμα δώρου για όλη την παραγγελία.",module,Magento_GiftMessage
 "Gift Options for Individual Items","Επιλογές Δώρου για Μεμονωμένα Στοιχεία",module,Magento_GiftMessage
@@ -2619,6 +2679,8 @@ Download,Λήψη,module,Magento_ImportExport
 Import,Εισαγωγή,module,Magento_ImportExport
 "Import Settings","Ρυθμίσεις Εισαγωγής",module,Magento_ImportExport
 "Import Behavior","Εισαγωγή συμπεριφοράς",module,Magento_ImportExport
+"Stop on Error","Διακοπή σε Σφάλμα",module,Magento_ImportExport
+"Skip error entries","Παράβλεψη καταχωρήσεων σφάλματος",module,Magento_ImportExport
 "Allowed Errors Count","Μέτρηση Επιτρεπόμενων Σφαλμάτων",module,Magento_ImportExport
 "Please specify number of errors to halt import process","Παρακαλούμε να προσδιορίσετε αριθμό σφαλμάτων να σταματήσει η διαδικασία εισαγωγής",module,Magento_ImportExport
 "Field separator","Διαχωριστικό πεδίου",module,Magento_ImportExport
@@ -2770,6 +2832,7 @@ Reauthorize,Επανέγκριση,module,Magento_Integration
 "Integration '%1' has been sent for re-authorization.","Ενσωμάτωση '%1' έχει σταλεί για εκ νέου άδεια.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","Ενσωμάτωση '%1' έχει σταλεί για ενεργοποίηση.",module,Magento_Integration
 "A consumer with ID %1 does not exist","Δεν υπάρχει καταναλωτής με ID %1",module,Magento_Integration
+title,τίτλος,module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Δεν συνδεθήκατε σωστά ή ο λογαριασμός σας έχει απενεργοποιηθεί προσωρινά.",module,Magento_Integration
 "This user has no tokens.","Αυτός ο χρήστης έχει δεν μάρκες.",module,Magento_Integration
 "The tokens could not be revoked.","Τα διακριτικά δεν μπορούν να ανακληθούν.",module,Magento_Integration
@@ -3044,6 +3107,7 @@ Subscribers,Συνδρομητές,module,Magento_Newsletter
 "This email address is already assigned to another user.","Αυτή η διεύθυνση email έχει ήδη συσχετιστεί με έναν άλλο χρήστη.",module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Συγγνώμη, αλλά ο διαχειριστής δεν επιτρέπει τη εγγραφή για τους επισκέπτες. Παρακαλώ <a href=""%1"">εγγραφείτε</a>.",module,Magento_Newsletter
 "Please enter a valid email address.","Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",module,Magento_Newsletter
+"This email address is already subscribed.","Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου έχει ήδη εγγραφεί.",module,Magento_Newsletter
 "The confirmation request has been sent.","Έχει σταλεί η αίτηση επιβεβαίωσης.",module,Magento_Newsletter
 "Thank you for your subscription.","Σας ευχαριστούμε για την εγγραφή σας.",module,Magento_Newsletter
 "There was a problem with the subscription: %1","Παρουσιάστηκε πρόβλημα με τη συνδρομή: %1",module,Magento_Newsletter
@@ -3342,6 +3406,8 @@ Dispute,Διαφορά,module,Magento_Paypal
 "N/A. Retry","Δ/Υ.. Επανάληψη",module,Magento_Paypal
 "N/A. Service not Supported","Δ/Υ. η υπηρεσία δεν υποστηρίζεται",module,Magento_Paypal
 "N/A. Unavailable","Δ/Υ.. Μη διαθέσιμο",module,Magento_Paypal
+"Matched whole nine-digit ZIP (no Address)","Ταίριαξε ολόκληρο εννια-ψήφιο Τ. Κ. (καμία Διεύθυνση)",module,Magento_Paypal
+"Yes. Matched Address and five-digit ZIP","Ναι. Αντιστοιχισμένη Διεύθυνση και πενταψήφιος Ταχυδρομικός Κώδικας",module,Magento_Paypal
 "All the address information matched","Όλες οι πληροφορίες διεύθυνσης ταίριαξαν",module,Magento_Paypal
 "None of the address information matched","Καμία από τις πληροφορίες διεύθυνσης δεν ταίριαξε",module,Magento_Paypal
 "Part of the address information matched","Μέρος των πληροφοριών διεύθυνσης ταίριαξε",module,Magento_Paypal
@@ -3588,6 +3654,7 @@ Description,Περιγραφή,module,Magento_ProductVideo
 Role,Ρόλος,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","Υποστήριξη YouTube και Vimeo.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Το Vimeo υποστηρίζεται. < br / > για να προσθέσετε βίντεο από το YouTube, παρακαλώ <a href=""%1""> εισάγετε το YouTube API κλειδί</a> πρώτα.",module,Magento_ProductVideo
+"Protocol isn't allowed","Το πρωτόκολλο δεν επιτρέπεται",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","Δεν μπορούμε να πάρουμε πληροφορίες της εικόνας προεπισκόπησης. Παρακαλώ ελέγξτε τη σύνδεση και προσπαθήστε ξανά.",module,Magento_ProductVideo
 "Add Video","Προσθήκη βίντεο",module,Magento_ProductVideo
 "Browse to find or drag image here","Αναζήτηση για να βρείτε ή σύρετε την εικόνα εδώ",module,Magento_ProductVideo
@@ -3643,6 +3710,7 @@ Subtotal,Υποσύνολο,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Δεν είναι δυνατή η αντιστοιχίση πελάτη σε δεδομένο καλάθι. Το καλάθι ανήκει σε διαφορετικό κατάστημα.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Δεν είναι δυνατή η αντιστοιχίση πελάτη σε δεδομένο καλάθι. Το καλάθι δεν είναι ανώνυμο.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Δεν είναι δυνατή η αντιστοιχίση πελάτη σε δεδομένο καλάθι. Ο πελάτης έχει ήδη ενεργό καλάθι.",module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.","Παρουσιάστηκε σφάλμα στο διακομιστή. Παρακαλώ ξανά δοκιμάστε την παραγγελία.",module,Magento_Quote
 "Only 1 shipping assignment can be set","Μπορεί να οριστεί μόνο 1 αποστολή",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Αυτή η τιμή στοιχείου ή η ποσότητα δεν είναι έγκυρη για ολοκλήρωση της παραγγελίας.",module,Magento_Quote
 "Please check the shipping address information. %1","Παρακαλούμε ελέγξτε τη διεύθυνση αποστολής. %1",module,Magento_Quote
@@ -4410,6 +4478,8 @@ Guest,Επισκέπτης,module,Magento_Sales
 "Please enter the street.","Παρακαλούμε εισάγετε το δρόμο.",module,Magento_Sales
 "Please enter the city.","Παρακαλούμε εισάγετε την πόλη.",module,Magento_Sales
 "Please enter the phone number.","Παρακαλώ εισάγετε τον αριθμό τηλεφώνου.",module,Magento_Sales
+"Please enter the company.","Παρακαλώ εισάγετε τη εταιρεία.",module,Magento_Sales
+"Please enter the fax number.","Παρακαλούμε εισάγετε τον αριθμό φαξ.",module,Magento_Sales
 "Please enter the zip/postal code.","Παρακαλώ εισάγετε τον ταχυδρομικό κωδικό.",module,Magento_Sales
 "Please enter the country.","Παρακαλώ εισάγετε τη χώρα.",module,Magento_Sales
 "Please enter the state/province.","Παρακαλούμε εισάγετε το νομό/επαρχία.",module,Magento_Sales
@@ -4530,6 +4600,7 @@ State/Province,Νομός/επαρχία,module,Magento_Sales
 "We cannot register an existing credit memo.","Δεν μπορούμε να καταχωρήσουμε ένα υπάρχον πιστωτικό υπόμνημα.",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","Βρήκαμε μία μη έγκυρη ποσότητα για τιμολόγηση στοιχείου ""%1"".",module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","Η κατάσταση της παραγγελίας ""%1"" δεν πρέπει να οριστεί με μη αυτόματο τρόπο.",module,Magento_Sales
+"""Shipment Document Validation Error(s):\n"" .","""Σφάλμα(τα) Εγγράφου Επικύρωσης Αποστολής:\n"" .",module,Magento_Sales
 "VAT Request Identifier","Αναγνωριστικό Αιτήματος ΦΠΑ",module,Magento_Sales
 "VAT Request Date","Ημερομηνία Αίτησης ΦΠΑ",module,Magento_Sales
 "Pending Payment","Πληρωμή σε Εκκρεμότητα",module,Magento_Sales
@@ -4863,6 +4934,7 @@ Shipments,Αποστολές,module,Magento_Shipping
 "We can't delete tracking number.","Δεν μπορούμε να διαγράψουμε τον αριθμό εντοπισμού.",module,Magento_Shipping
 "We can't load track with retrieving identifier right now.","Δεν μπορούμε να φορτώσουμε το κομμάτι με το αναγνωριστικό ανάκτησης αυτή τη στιγμή.",module,Magento_Shipping
 "We can't save the shipment right now.","Δεν ήταν δυνατή η αποθήκευση της αποστολής αυτή τη στιγμή.",module,Magento_Shipping
+"""Shipment Document Validation Error(s):\n"" .","""Σφάλμα(τα) Εγγράφου Επικύρωσης Αποστολής:\n"" .",module,Magento_Shipping
 "The shipment has been created.","Η αποστολή έχει δημιουργηθεί.",module,Magento_Shipping
 "Cannot save shipment.","Δεν ήταν δυνατή η αποθήκευση της αποστολής.",module,Magento_Shipping
 "The order no longer exists.","Η παραγγελία δεν υπάρχει πλέον.",module,Magento_Shipping
@@ -5021,7 +5093,11 @@ All,Όλα,module,Magento_Sitemap
 "Requested store is inactive","Το κατάστημα που ζητήθηκε είναι ανενεργό",module,Magento_Store
 "Requested store is not found","Το ζητούμενο κατάστημα δεν βρέθηκε",module,Magento_Store
 "Environment emulation nesting is not allowed.","Το περιβάλλον προσομοίωσης δεν επιτρέπεται.",module,Magento_Store
+"Website was not found","Η Ιστοσελίδα δεν βρέθηκε",module,Magento_Store
+"Group was not found","Η Ομάδα δεν βρέθηκε",module,Magento_Store
+"Store was not found","Το Κατάστημα δεν βρέθηκε",module,Magento_Store
 "Invalid scope object","Μη έγκυρη εμβέλεια αντικειμένου",module,Magento_Store
+"Group with the same code","Ομάδα με τον ίδιο κωδικό",module,Magento_Store
 "Store with the same code","Κατάστημα με τον ίδιο κωδικό",module,Magento_Store
 "Website with the same code","Ιστοσελίδα με τον ίδιο κωδικό",module,Magento_Store
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Ο κωδικός Ιστοσελίδας μπορεί να περιέχει μόνο γράμματα (a-z), αριθμούς (0-9) ή το χαρακτήρα υπογράμμισης (_), και ο πρώτος χαρακτήρας πρέπει να είναι ένα γράμμα.",module,Magento_Store
@@ -5050,7 +5126,9 @@ Language,Γλώσσα,module,Magento_Store
 "Is Default","Είναι Προεπιλογή",module,Magento_Swatches
 "Add Swatch","Προσθέστε Swatch",module,Magento_Swatches
 "Sort Option","Επιλογή Ταξινόμησης",module,Magento_Swatches
+Description,Περιγραφή,module,Magento_Swatches
 Delete,Διαγραφή,module,Magento_Swatches
+"The value of Admin must be unique.","Η τιμή του Διαχειριστή πρέπει να είναι μοναδική.",module,Magento_Swatches
 "Choose a color","Επιλέξτε χρώμα",module,Magento_Swatches
 "Upload a file","Φορτώστε ένα αρχείο",module,Magento_Swatches
 Clear,Καθαρισμός,module,Magento_Swatches
@@ -5343,6 +5421,7 @@ Minute,Λεπτό,module,Magento_Theme
 "Add New %1","Προσθήκη Νέου %1",module,Magento_Ui
 "New %1","Νέα %1",module,Magento_Ui
 "Please select item(s).","Παρακαλώ επιλέξτε αντικείμενο(α).",module,Magento_Ui
+"Invalid XML in file %1:\n%2","Μη έγκυρο XML στο αρχείο %1:\n%2",module,Magento_Ui
 "Unsupported bookmark action.","Δεν υποστηρίζεται ενέργεια σελιδοδείκτη.",module,Magento_Ui
 "Parameter ""class"" must be present.","Η παράμετρος ""κατηγορία"" πρέπει να είναι παρούσα.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","Η παράμετρος ""σειρά ταξινόμησης"" πρέπει να είναι παρούσα.",module,Magento_Ui
@@ -5598,6 +5677,7 @@ Type,Τύπος,module,Magento_Vault
 ending,λήγει,module,Magento_Vault
 Actions,Ενέργειες,module,Magento_Vault
 Delete,Διαγραφή,module,Magento_Vault
+"PayPal Account","Λογαριασμός PayPal",module,Magento_Vault
 "Consumer is not authorized to access %resources","Ο Καταναλωτής δεν έχει εξουσιοδότηση για πρόσβαση σε πόρους %",module,Magento_Webapi
 "Operation allowed only in HTTPS","Η λειτουργία επιτρέπεται μόνο σε HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","Δεν μπορεί να εκτελέσει λειτουργία GET με κωδικός κατάστημα «όλα»",module,Magento_Webapi
@@ -6007,8 +6087,11 @@ Footer,Υποσέλιδο,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Η επιβεβαίωση της αποστολής σας είναι παρακάτω. Σας ευχαριστούμε και πάλι για την εμπιστοσύνη σας.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Αριθμ. Αποστολής %shipment_id # για την Παραγγελία #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Ενημέρωση αποστολής παραγγελίας σας από %store_name",theme,frontend/Magento/luma
+"Sorry, but something went wrong. Please contact the seller.","Συγνώμη, αλλά κάτι πήγε στραβά. Επικοινωνήστε με τον πωλητή.",module,Magento_Authorizenet
 "We could not detect a size.","Δεν μπορούσαμε να ανιχνεύσουμε ένα μέγεθος.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Δεν αναγνωρίζουμε ή υποστηρίζουμε αυτή την κατάληξη αρχείου.",module,Magento_Backend
+"Warning message","Προειδοποιητικό μήνυμα",module,Magento_Backend
+"This operation can take a long time","Αυτή η λειτουργία μπορεί να πάρει πολύ χρόνο",module,Magento_Backend
 "This payment is not available","Η πληρωμή αυτή δεν είναι διαθέσιμη",module,Magento_Braintree
 YY,ΕΕ,module,Magento_Braintree
 "Please try again with another form of payment.","Παρακαλώ δοκιμάστε ξανά με μια άλλη μέθοδο πληρωμής.",module,Magento_Braintree
@@ -6060,6 +6143,8 @@ Shipping,Μεταφορικά,module,Magento_Checkout
 "Please select attribute(s).","Παρακαλώ, επιλέξτε χαρακτηριστικό(α).",module,Magento_ConfigurableProduct
 "Generate Products","Δημιουργήστε Προϊόντα",module,Magento_ConfigurableProduct
 "Something went wrong.","Κάτι πήγε στραβά.",module,Magento_ConfigurableProduct
+"Buy %1 for %2 each and","Αγοράστε %1 με %2 κάθε και",module,Magento_ConfigurableProduct
+save,αποθήκευση,module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Είστε βέβαιοι ότι θέλετε να το κάνετε αυτό;",module,Magento_Customer
 "Are you sure you want to delete this address?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη διεύθυνση;",module,Magento_Customer
 Weak,Ασθενής,module,Magento_Customer
@@ -6074,6 +6159,11 @@ Allow,"Να επιτρέπεται",module,Magento_Integration
 Done,Επιτυχής,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Δεν μπορούμε να ολοκληρώσουμε την παραγγελία σας, επειδή δεν έχετε προσδιορίσει μια μέθοδο πληρωμής.",module,Magento_Multishipping
 "Please choose a payment method.","Παρακαλώ επιλέξτε μια μέθοδο πληρωμής.",module,Magento_Multishipping
+"Please enter a valid credit card type number.","Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τύπου πιστωτικής κάρτας.",module,Magento_Payment
+"Please enter a valid credit card number.","Παρακαλούμε εισάγετε έναν έγκυρο αριθμό πιστωτικής κάρτας.",module,Magento_Payment
+"Incorrect credit card expiration month.","Εσφαλμένος μήνας λήξης πιστωτικής κάρτας.",module,Magento_Payment
+"Incorrect credit card expiration year.","Εσφαλμένο έτος λήξης πιστωτικής κάρτας.",module,Magento_Payment
+"An error occurred on the server. Please try to place the order again.","Παρουσιάστηκε σφάλμα στο διακομιστή. Παρακαλώ ξανά δοκιμάστε την παραγγελία.",module,Magento_Payment
 "Sorry, something went wrong.","Συγνώμη, κάτι πήγε λάθος.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Λυπούμαστε, κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά αργότερα.",module,Magento_Paypal
 "Video Error","Σφάλμα βίντεο",module,Magento_ProductVideo
@@ -6113,6 +6203,8 @@ Selected,Επιλεγμένο,module,Magento_Ui
 "Default View","Προεπιλεγμένη Προβολή",module,Magento_Ui
 "${ $.visible } out of ${ $.total } visible","${ $.visible } από ${ $.total } ορατό",module,Magento_Ui
 "You have successfully saved your edits.","Έχετε αποθηκεύσει τις αλλαγές σας με επιτυχία.",module,Magento_Ui
+from,από,module,Magento_Ui
+to,έως,module,Magento_Ui
 "You haven't selected any items!","Δεν έχετε επιλέξει κανένα στοιχείο!",module,Magento_Ui
 "Search by keyword","Αναζήτηση με λέξη-κλειδί",module,Magento_Ui
 Keyword,Λέξη-κλειδί,module,Magento_Ui
@@ -6151,6 +6243,8 @@ Keyword,Λέξη-κλειδί,module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email (πχ: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Παρακαλώ εισάγετε 6 ή περισσότερους χαρακτήρες. Αρχικά και τελικά κενά διαστήματα θα παραβλεφθούν.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Παρακαλώ εισάγετε 7 ή περισσότερους χαρακτήρες, χρησιμοποιώντας μαζί και αριθμούς και γράμματα.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Ελάχιστο μήκος αυτού του πεδίου πρέπει να είναι ίσο ή μεγαλύτερο από %1 σύμβολα. Αρχικά και τελικά κενά διαστήματα θα παραβλεφθούν.",module,Magento_Ui
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Το ελάχιστο διαφορετικών κατηγοριών χαρακτήρων στο κωδικό πρόσβασης είναι %1. Κατηγορίες χαρακτήρων: πεζά γράμματα, κεφαλαία γράμματα, ψηφία, ειδικοί χαρακτήρες.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Παρακαλώ εισάγετε μια έγκυρη διεύθυνση URL. Πρωτόκολλο απαιτείται (http://, https:// ή ftp: / /).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Παρακαλώ εισάγετε μια έγκυρη διεύθυνση URL. Για παράδειγμα, http://www.example.com ή www.example.com.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Παρακαλώ εισάγετε ένα έγκυρο XML-αναγνωριστικό (Ex: something_1, block5, id-4).",module,Magento_Ui
@@ -6172,6 +6266,7 @@ Keyword,Λέξη-κλειδί,module,Magento_Ui
 "Please select State/Province.","Παρακαλώ επιλέξτε το νομό/επαρχία.",module,Magento_Ui
 "Please enter a value less than or equal to {0}.","Παρακαλούμε εισάγετε μια τιμή μικρότερη ή ίση με {0}.",module,Magento_Ui
 "Please enter a value greater than or equal to {0}.","Εισαγάγετε μια τιμή μεγαλύτερη από ή ίση με {0}.",module,Magento_Ui
+"Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Παρακαλώ εισάγετε έγκυρες διευθύνσεις ηλεκτρονικού ταχυδρομείου, διαχωρισμένες με κόμματα. Για παράδειγμα, johndoe@domain.com, johnsmith@domain.com.",module,Magento_Ui
 "Please enter issue number or start date for switch/solo card type.","Παρακαλώ εισάγετε τον αριθμό έκδοσης ή την ημερομηνία έναρξης για τύπο κάρτας switch/solo.",module,Magento_Ui
 "This is a required field.","Αυτό το πεδίο είναι υποχρεωτικό.",module,Magento_Ui
 "Please enter positive number in this field.","Παρακαλείστε να εισαγάγετε θετικό αριθμό στο πεδίο αυτό.",module,Magento_Ui
@@ -6226,6 +6321,7 @@ Content,Περιεχόμενο,module,Magento_Backend
 Elements,Στοιχεία,module,Magento_Backend
 Design,Σχεδίαση,module,Magento_Backend
 Schedule,Χρονοδιάγραμμα,module,Magento_Backend
+"Content translation","Μετάφραση περιεχομένου",module,Magento_Backend
 Settings,Ρυθμίσεις,module,Magento_Backend
 Attributes,Χαρακτηριστικά,module,Magento_Backend
 "Other Settings","Άλλες ρυθμίσεις",module,Magento_Backend
@@ -6418,11 +6514,14 @@ Debug,Αποσφαλμάτωση,module,Magento_Braintree
 "Require Customer's Billing Address","Απαιτείται Διεύθυνση Χρέωσης του Πελάτη",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Επιτρέξτε την Επεξεργασία εισαγώμενης Διεύθυνσης Αποστολής κατά τη διάρκεια Ολοκλήρωσης Παραγγελίας Checkout στην πλευρά του PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Προβολή στο καλάθι αγορών",module,Magento_Braintree
+"Skip Order Review","Παράκαμψη της Ανασκόπησης της Παραγγελίας",module,Magento_Braintree
 "3D Secure Verification Settings","3D ασφαλής επαλήθευση ρυθμίσεων",module,Magento_Braintree
 "3D Secure Verification","3D ασφαλής επαλήθευση",module,Magento_Braintree
 "Threshold Amount","Όριο Ποσού",module,Magento_Braintree
 "Verify for Applicable Countries","Βεβαίωση για Ισχύουσες Χώρες",module,Magento_Braintree
 "Verify for Specific Countries","Βεβαίωση για Συγκεκριμένες Χώρες",module,Magento_Braintree
+Name,Όνομα,module,Magento_Braintree
+Phone,Τηλέφωνο,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Εφαρμόστε τα φίλτρα για να πάρετε τα αποτελέσματα. Μόνο οι πρώτες 100 εγγραφές θα εμφανιστούν στο πλέγμα, θα είστε σε θέση να κατεβάσετε την πλήρη έκδοση της έκθεσης σε μορφή csv.",module,Magento_Braintree
 Select...,Επιλέξτε...,module,Magento_Braintree
 Status,Κατάσταση,module,Magento_Braintree
@@ -6443,6 +6542,7 @@ Select...,Επιλέξτε...,module,Magento_Bundle
 Status,Κατάσταση,module,Magento_Bundle
 Thumbnail,Μικρογραφία,module,Magento_Bundle
 Type,Τύπος,module,Magento_Bundle
+"Special Price","Ειδική Τιμή",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Ενεργοποίηση CAPTCHA στη διαχείριση (Admin)",module,Magento_Captcha
 Font,Γραμματοσειρά,module,Magento_Captcha
 Forms,Φόρμες,module,Magento_Captcha
@@ -6616,8 +6716,20 @@ Template,Πρότυπο,module,Magento_Catalog
 "If empty, we'll use the category name here.","Αν είναι κενό, θα χρησιμοποιήσουμε το όνομα της κατηγορίας εδώ.",module,Magento_Catalog
 "Category Link Block Template","Πρότυπο Μπλοκ Συνδέσμου Κατηγορίας",module,Magento_Catalog
 "Category Link Inline Template","Πρότυπο Μπλοκ Εσωτερικού Συνδέσμου",module,Magento_Catalog
+"Recently Viewed Products","Πρόσφατες Εμφανίσεις Προϊόντων",module,Magento_Catalog
+"List of Products Recently Viewed by Visitor","Κατάλογος των προϊόντων που πρόσφατα προβλήθηκαν από επισκέπτη",module,Magento_Catalog
+"UI Component","Στοιχείο Περιβάλλοντος Εργασίας Χρήστη",module,Magento_Catalog
+"Number of Products to display","Αριθμός Προϊόντων για Προβολή",module,Magento_Catalog
 Image,Εικόνα,module,Magento_Catalog
+"Learn More Link","Σύνδεσμος Μάθετε Περισσότερα",module,Magento_Catalog
+"Buttons to show","Κουμπιά για προβολή",module,Magento_Catalog
 "Add to Wishlist","Προσθήκη στη Λίστα Επιθυμιών",module,Magento_Catalog
+"Viewed Products Grid Template","Πρότυπο Πλέγματος Προβληθέντων Προϊόντων",module,Magento_Catalog
+"Viewed Products List Template","Πρότυπο Λίστας Προβληθέντων Προϊόντων",module,Magento_Catalog
+"Recently Compared Products","Πρόσφατα Συγκριθέντα Προϊόντα",module,Magento_Catalog
+"List of Products Recently Compared by Visitor","Κατάλογος των προϊόντων που πρόσφατα συγκρίθηκαν από επισκέπτη",module,Magento_Catalog
+"Compared Products Grid Template","Πρότυπο Πλέγματος Συγκρινόμενων Προϊόντων",module,Magento_Catalog
+"Compared Products List Template","Πρότυπο Λίστας Συγκρινόμενων Προϊόντων",module,Magento_Catalog
 Set,Ορισμός,module,Magento_Catalog
 "Category Information","Πληροφορίες Κατηγορίας",module,Magento_Catalog
 "Enable Category","Ενεργοποίηση Κατηγορίας",module,Magento_Catalog
@@ -6666,6 +6778,11 @@ Disable,Απενεργοποίηση,module,Magento_Catalog
 "Update attributes","Ενημέρωση Χαρακτηριστικών",module,Magento_Catalog
 Overview,Επισκόπηση,module,Magento_Catalog
 Details,Λεπτομέρειες,module,Magento_Catalog
+"Recently Compared","Πρόσφατα Συγκρίθηκαν",module,Magento_Catalog
+"Add To Cart","Προσθήκη Στο Καλάθι",module,Magento_Catalog
+"Add To Compare","Προσθήκη Για Σύγκριση",module,Magento_Catalog
+"Learn more","Μάθετε περισσότερα",module,Magento_Catalog
+"Recently Viewed","Είδατε Πρόσφατα",module,Magento_Catalog
 "Terms & Conditions","Όροι και προϋποθέσεις",module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","Ενεργοποίηση Όρων και Προϋποθέσεων",module,Magento_CheckoutAgreements
 "Checkout Options","Επιλογές Αγοράς",module,Magento_Checkout
@@ -6728,6 +6845,7 @@ Block,Μπλοκ,module,Magento_Cms
 "General Information","Γενικές Πληροφορίες",module,Magento_Cms
 "Enable Block","Ενεργοποίηση Μπλοκ",module,Magento_Cms
 "Block Title","Τίτλος Μπλοκ",module,Magento_Cms
+"Are you sure you want to delete selected items?","Είστε σίγουροι ότι θέλετε να διαγράψετε τα επιλεγμένα αντικείμενα;",module,Magento_Cms
 "Delete items","Διαγραφή αντικειμένων",module,Magento_Cms
 "Page Information","Πληροφορίες Σελίδας",module,Magento_Cms
 "Enable Page","Ενεργοποίηση Σελίδας",module,Magento_Cms
@@ -6851,6 +6969,9 @@ Currency,Νόμισμα,module,Magento_CurrencySymbol
 "Use 0 to disable account locking.","Χρησιμοποιήστε το 0 για να απενεργοποιήσετε το κλείδωμα του λογαριασμού.",module,Magento_Customer
 "Lockout Time (minutes)","Χρόνος Κλειδώματος (λεπτά)",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Ενεργοποίηση αυτόματης καταχώρησης σε φόρμες σύνδεσης/υπενθύμισης κωδικού πρόσβασης",module,Magento_Customer
+"Account Information Options","Επιλογές Πληροφοριών Λογαριασμού",module,Magento_Customer
+"Change Email Template","Πρότυπο Αλλαγής Email",module,Magento_Customer
+"Change Email and Password Template","Πρότυπο Αλλαγής Email και Κωδικού Πρόσβασης",module,Magento_Customer
 "Name and Address Options","Επιλογές ονόματος και διεύθυνσης",module,Magento_Customer
 "Number of Lines in a Street Address","Αριθμός γραμμών σε μια διεύθυνση οδού",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Αφήστε κενό για την προεπιλογή (2). Έγκυρη περιοχή: 1-4",module,Magento_Customer
@@ -6865,6 +6986,9 @@ Currency,Νόμισμα,module,Magento_CurrencySymbol
 "Show Date of Birth","Εμφάνιση Ημερομηνίας Γέννησης",module,Magento_Customer
 "Show Tax/VAT Number","Εμφάνιση ΑΦΜ",module,Magento_Customer
 "Show Gender","Εμφάνιση Φύλου",module,Magento_Customer
+"Show Telephone","Εμφάνιση Τηλεφώνου",module,Magento_Customer
+"Show Company","Εμφάνιση Εταιρίας",module,Magento_Customer
+"Show Fax","Εμφάνιση Φαξ",module,Magento_Customer
 "Login Options","Επιλογές Σύνδεσης",module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in","Ανακατευθύνετε τον πελάτη στον πίνακα ελέγχου του λογαριασμού αφού συνδεθεί στο",module,Magento_Customer
 "Customer will stay on the current page if ""No"" is selected.","Ο Πελάτης θα παραμείνει στην τρέχουσα σελίδα, αν το ""Όχι"" είναι επιλεγμένο.",module,Magento_Customer
@@ -6897,6 +7021,7 @@ ZIP,TK,module,Magento_Customer
 "Last Activity","Τελευταία Δραστηριότητα",module,Magento_Customer
 Type,Τύπος,module,Magento_Customer
 "Customer Information","Στοιχεία Πελάτη",module,Magento_Customer
+"If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.","Εάν η εγκατάσταση Magento σας έχει πολλές τοποθεσίες Web, μπορείτε να επεξεργαστείτε το πεδίο για να συσχετίσετε τον πελάτη με μια συγκεκριμένη τοποθεσία.",module,Magento_Customer
 "Disable Automatic Group Change Based on VAT ID","Απενεργοποιήσετε την αυτόματη αλλαγή ομάδας βάσει ID Φόρου",module,Magento_Customer
 "Send Welcome Email From","Αποστολή Email Καλωσορίσματος Από",module,Magento_Customer
 "Are you sure you want to delete this item?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο;",module,Magento_Customer
@@ -6912,6 +7037,8 @@ Addresses,Διευθύνσεις,module,Magento_Customer
 "Developer Client Restrictions","Περιορισμοί προγραμματιστή προγράμματος-πελάτη",module,Magento_Developer
 "Allowed IPs (comma separated)","Επιτρεπόμενες IPs (χωρισμένες με κόμμα)",module,Magento_Developer
 "Leave empty for access from any location.","Αφήστε κενό για πρόσβαση από οποιαδήποτε θέση.",module,Magento_Developer
+"Log to File","Καταγραφή στο Αρχείο",module,Magento_Developer
+"Not available in production mode.","Μη διαθέσιμο στη λειτουργία παραγωγής.",module,Magento_Developer
 "Enabled for Checkout","Ενεργοποιημένη για Ολοκλήρωση της Παραγγελίας",module,Magento_Dhl
 "Gateway URL","Διεύθυνση URL Πύλης",module,Magento_Dhl
 Title,Τίτλος,module,Magento_Dhl
@@ -7054,6 +7181,7 @@ Mode,Λειτουργία,module,Magento_Indexer
 Status,Κατάσταση,module,Magento_Indexer
 Updated,Ενημερώθηκε,module,Magento_Indexer
 Extensions,Επεκτάσεις,module,Magento_Integration
+"Access Token Expiration","Λήξη Διακριτικού Πρόσβασης",module,Magento_Integration
 "Cleanup Settings","Ρυθμίσεις Εκκαθάρισης",module,Magento_Integration
 "Cleanup Probability","Πιθανότητα εκκαθάρισης",module,Magento_Integration
 "Expiration Period","Περιόδος Λήξης",module,Magento_Integration
@@ -7197,6 +7325,7 @@ Import,Εισαγωγή,module,Magento_OfflineShipping
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","Καθορίστε εξυπηρετητή παρασκηνίου για τη δημιουργία του αρχείου ρυθμίσεων. Αν το πεδίο είναι κενό η προεπιλεγμένη αξία τοπικού εξυπηρετητής θα αποθηκευτεί.",module,Magento_PageCache
 "Backend port","Θύρα παρασκηνίου",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Καθορίστε μία πόρτα εξυπηρετητή παρασκηνίου για τη δημιουργία του αρχείου ρυθμίσεων. Αν το πεδίο είναι κενό η προεπιλεγμένη αξία 8080 θα αποθηκευτεί.",module,Magento_PageCache
+"Grace period","Περίοδος χάριτος",module,Magento_PageCache
 "TTL for public content","TTL για δημόσιο περιεχόμενο",module,Magento_PageCache
 "Page Cache","Cache Σελίδας",module,Magento_PageCache
 "Full page caching","Caching πλήρους σελίδας",module,Magento_PageCache
@@ -7212,10 +7341,16 @@ Manage,Διαχείριση,module,Magento_Paypal
 "Merchant Location","Τοποθεσία Εμπόρου",module,Magento_Paypal
 "Merchant Country","Χώρα Εμπόρου",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Εάν δεν καθοριστεί, θα χρησιμοποιηθεί προεπιλεγμένη χώρα από Γενική Ρύθμιση",module,Magento_Paypal
+"Recommended Solutions:","Προτεινόμενες Λύσεις:",module,Magento_Paypal
+"Other PayPal Payment Solutions:","Άλλες PayPal Λύσεις Πληρωμών:",module,Magento_Paypal
+"Other Payment Methods:","Άλλοι Τρόποι Πληρωμής:",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Προσθέστε μια άλλη μέθοδο πληρωμής στην υπάρχουσα λύση ή ως μεμονωμένη επιλογή.",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Λύσεις πληρωμής PayPal All-in-One&nbsp;<i>Αποδοχή και Επεξεργασία Πιστωτικών Κάρτών και πληρωμών PayPal.</i>",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Επιλέξτε μια συνδυαστική λύση ασφαλών πληρωμών για την επιχείρησή σας.",module,Magento_Paypal
+"Payments Pro","Πληρωμές Pro",module,Magento_Paypal
 "Payments Pro and Express Checkout","Payments Pro και Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Βασικές Ρυθμίσεις - Πληρωμές PayPal Pro",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Λύσεις πληρωμής PayPal All-in-One&nbsp;&nbsp;<i>Αποδοχή και Επεξεργασία Πιστωτικών Κάρτών και πληρωμών PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Δέχονται πληρωμές με μία πλήρως προσαρμοσμένη σελίδα ολοκλήρωσης παραγγελίας.",module,Magento_Paypal
 "Process payments using your own internet merchant account.","Επεξεργασία πληρωμών, χρησιμοποιώντας το δικό σας εμπορικό λογαριασμό internet.",module,Magento_Paypal
 "Express Checkout","Γρήγορη Πληρωμή Παραγγελίας",module,Magento_Paypal
@@ -7328,6 +7463,7 @@ User,Χρήστης,module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Οθόνη Γρήγορης Ολοκλήρωσης Παραγγελίας στο βήμα Πληροφοριών Πληρωμής",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Πληρωμές Ιστοσελίδας Φιλοξενημένη Λύση Pro και Γρήγορη Ολοκλήρωση Παραγγελίας",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Βασικές ρυθμίσεις - Δικτυακός Τόπος PayPal Φιλοξενημένη Λύση Πληρωμών Pro",module,Magento_Paypal
+"Vault Enabled","Θάλαμος Ενεργοποιημένος",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Βασικές Ρυθμίσεις - PayPal Payflow Pro",module,Magento_Paypal
 "Vault Title","Τίτλος Θάλαμου",module,Magento_Paypal
 "Credit Card Settings","Ρυθμίσεις Πιστωτικής Κάρτας",module,Magento_Paypal
@@ -7615,6 +7751,8 @@ City,Πόλη,module,Magento_Shipping
 "Apply custom Shipping Policy","Εφαρμόσετε προσαρμοσμένη πολιτική αποστολής",module,Magento_Shipping
 "Shipping Policy","Πολιτική αποστολής",module,Magento_Shipping
 "Shipping Methods","Τρόποι Αποστολής",module,Magento_Shipping
+"Track your order","Παρακολούθηση παραγγελίας",module,Magento_Shipping
+"Track All Shipments","Παρακολούθηση όλων των Αποστολών",module,Magento_Shipping
 "XML Sitemap Section","Τμήμα XML Χάρτη Ιστότοπου",module,Magento_Sitemap
 "Categories Options","Επιλογές Κατηγοριών",module,Magento_Sitemap
 Frequency,Συχνότητα,module,Magento_Sitemap
@@ -7707,6 +7845,7 @@ Empty,Κενό,module,Magento_Theme
 "1 column","1 στήλη",module,Magento_Theme
 Configuration,"Ρύθμιση παραμέτρων",module,Magento_Theme
 "Default welcome msg!","Προπιλεγμένο μήνυμα καλωσορίσματος!",module,Magento_Theme
+"Copyright © 2013-2017 Magento, Inc. All rights reserved.","Πνευματικά δικαιώματα © 2013-2017 Magento, Inc. Όλα τα δικαιώματα κατοχυρωμένα.",module,Magento_Theme
 "Design Config Grid","Πλέγμα σχεδίασης Ρύθμισης παραμέτρων",module,Magento_Theme
 "Rebuild design config grid index","Αναδημιουργία ευρετηρίου σχεδιασμού πλέγματος Χρήσης Ρυθμήσεων",module,Magento_Theme
 "Admin empty","Διαχειριστής κενός",module,Magento_Theme
@@ -7714,11 +7853,14 @@ Configuration,"Ρύθμιση παραμέτρων",module,Magento_Theme
 "Theme Information","Πληροφορίες θέματος",module,Magento_Theme
 "Other Settings","Άλλες ρυθμίσεις",module,Magento_Theme
 "HTML Head","HTML κεφαλίδα",module,Magento_Theme
+"Allowed file types: ico, png, gif, jpg, jpeg, apng. Not all browsers support all these formats!","Επιτρεπόμενοι τύποι αρχείων: ico, png, gif, jpg, jpeg, apng. Δεν υποστηρίζουν όλα τα προγράμματα περιήγησης όλες αυτές τις μορφές!",module,Magento_Theme
 "Favicon Icon","Εικονίδιο favicon",module,Magento_Theme
+"Default Page Title","Προεπιλεγμένος Τίτλος Σελίδας",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Αυτό θα συμπεριληφθεί πριν από το κλείσιμο ετικέτας κεφαλίδας στη σελίδα HTML.",module,Magento_Theme
 "Scripts and Style Sheets","Δέσμες Εντολών και Φύλλα Στυλ",module,Magento_Theme
 "Display Demo Store Notice","Ειδοποίηση επίδειξης Καταστήματος Δοκιμής",module,Magento_Theme
 Header,Κεφαλίδα,module,Magento_Theme
+"Allowed file types: png, gif, jpg, jpeg.","Επιτρεπόμενοι τύποι αρχείων: png, gif, jpg, jpeg.",module,Magento_Theme
 "Logo Image","Εικόνα λογότυπου",module,Magento_Theme
 "Welcome Text","Κείμενο καλωσορίσματος",module,Magento_Theme
 "Logo Image Alt","Εναλλακτικό Κείμενο εικόνας Λογότυπου",module,Magento_Theme
@@ -7729,6 +7871,7 @@ Copyright,"Πνευματικά δικαιώματα",module,Magento_Theme
 "Default Robots","Προεπιλεγμένα Ρομπότ",module,Magento_Theme
 "Edit custom instruction of robots.txt File","Επεξεργαστείτε την προσαρμοσμένη εντολή του robots.txt αρχείο",module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","Αυτή η ενέργεια θα διαγράψει τις προσαρμοσμένες οδηγίες σας και θα επαναφέρουν προεπιλεγμένες ρυθμίσεις συστήματος αρχείου robots.txt.",module,Magento_Theme
+"Reset To Defaults","Επαναφορά προεπιλογών",module,Magento_Theme
 Website,Ιστοσελίδα,module,Magento_Theme
 Store,Κατάστημα,module,Magento_Theme
 "Store View","Προβολή Καταστήματος",module,Magento_Theme
@@ -7744,6 +7887,14 @@ Translations,Μεταφράσεις,module,Magento_Translation
 "Translation files","Μετάφραση αρχείων",module,Magento_Translation
 "Log JS Errors to Session Storage","Σφάλματα JS αρχείου καταγραφής στο χώρο αποθήκευσης περιόδου λειτουργίας",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Σφάλματα JS αρχείου καταγραφής στο κλειδί χώρου αποθήκευσης περιόδου λειτουργίας",module,Magento_Ui
+settings/label,ρυθμίσεις/ετικέτα,module,Magento_Ui
+settings/title,ρυθμίσεις/τίτλος,module,Magento_Ui
+settings/description,ρυθμίσεις/περιγραφή,module,Magento_Ui
+settings/placeholder,"ρυθμίσεις/σύμβολο κράτησης θέσης",module,Magento_Ui
+settings/caption,ρυθμίσεις/λεζάντα,module,Magento_Ui
+settings/visible,ρυθμίσεις/ορατό,module,Magento_Ui
+settings/size,ρυθμίσεις/μέγεθος,module,Magento_Ui
+settings/notice,ρυθμίσεις/ειδοποίηση,module,Magento_Ui
 Action,Ενέργεια,module,Magento_Ui
 "Access License Number","Πρόσβαση στον Αριθμό της Άδειας",module,Magento_Ups
 "Enabled for Checkout","Ενεργοποιημένη για Ολοκλήρωση της Παραγγελίας",module,Magento_Ups
