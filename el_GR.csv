@@ -938,6 +938,7 @@ Catalog,Κατάλογος,module,Magento_Catalog
 "An attribute with this code already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με αυτόν τον κώδικα.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Υπάρχει ήδη ένα χαρακτηριστικό με τον ίδιο κωδικό (%1).",module,Magento_Catalog
 "The value of Admin must be unique.","Η τιμή του Διαχειριστή πρέπει να είναι μοναδική.",module,Magento_Catalog
+"The value of Admin scope can't be empty.","Η τιμή του πεδίου εφαρμογής του διαχειριστή δεν μπορεί να είναι κενή.",module,Magento_Catalog
 "You duplicated the product.","Κλωνοποιήσατε το προϊόν.",module,Magento_Catalog
 "This product doesn't exist.","Αυτό το προϊόν δεν υπάρχει.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Το id προϊόντος δεν είναι έγκυρο. Θα πρέπει να είναι αριθμητική τιμή μεγαλύτερη από 0",module,Magento_Catalog
@@ -1094,6 +1095,7 @@ Disabled,Απενεργοποιημένο,module,Magento_Catalog
 "The text is too long.","Το κείμενο είναι πολύ μεγάλο.",module,Magento_Catalog
 "Invalid attribute %fieldName = %fieldValue.","Μη έγκυρο χαρακτηριστικό %fieldName = %fieldValue.",module,Magento_Catalog
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Το κατάστημα δεν βρέθηκε. Row ID: SKU = %SKU, Row ID: %storeId.",module,Magento_Catalog
+"Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Μη έγκυρο κόστος χαρακτηριστικού = %cost. Αναγνωριστικό σειράς: SKU = %SKU, Αναγνωριστικό καταστήματος: %storeId.",module,Magento_Catalog
 "Could not save Prices.","Αδύνατη η αποθήκευση Τιμών.",module,Magento_Catalog
 "Could not delete Prices","Αδυναμία διαγραφής Τιμών",module,Magento_Catalog
 "This product doesn't have tier price","Αυτό το προϊόν δεν έχει βαθμίδα τιμής",module,Magento_Catalog
@@ -6525,6 +6527,7 @@ Size(bytes),Μέγεθος(bytes),module,Magento_Backup
 Type,Τύπος,module,Magento_Backup
 Download,Λήψη,module,Magento_Backup
 Action,Ενέργεια,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Δεχτείτε πιστωτικές/χρεωστικές κάρτες και πληρωμές μέσω PayPal στο Magento κατάστημα σας.<br/>Χωρίς μηνιαία ή κόστη ενεργοποιήσης και οι πελάτες σας δεν φεύγουν από το κατάστημα για να ολοκληρώσουν την αγορά τους.",module,Magento_Braintree
 "Enable this Solution","Ενεργοποίηση αυτής της λύσης",module,Magento_Braintree
 "Enable PayPal through Braintree","Ενεργοποίηση PayPal μέσω Braintree",module,Magento_Braintree
 "Basic Braintree Settings","Bασικές ρυθμίσεις Braintree",module,Magento_Braintree
