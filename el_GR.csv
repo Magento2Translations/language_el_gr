@@ -27,6 +27,7 @@ notice,ανακοίνωση,module,Magento_AdminNotification
 "Wrong message type","Λάθος τύπος μηνύματος",module,Magento_AdminNotification
 "Wrong notification ID specified.","Δόθηκε λάθος αναγνωριστικό ειδοποίησης.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} δεν συνιστάται να χρησιμοποιήσετε σε ένα περιβάλλον παραγωγής, για να δηλώσετε το μη ασφαλές Base URL / ασφαλές Base URL. Σας συνιστούμε την αλλαγή αυτής της τιμής στο Magento σας <a href=""%1"">configuration</a>.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Ένα ή περισσότερα από τα Είδη της Cache δεν είναι ενημερωμένα: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Παρακαλούμε πηγαίνετε στο <a href=""%1"">Διαχείριση Cache</a> και ανανεώστε τα είδη της cache.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Δεν ήμασταν σε θέση να συγχρονίσουμε ένα ή περισσότερα αρχεία πολυμέσων. Παρακαλώ ανατρέξτε στο αρχείο καταγραφής για λεπτομέρειες.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Συγχρονισμός των αποθηκών μέσων έχει ολοκληρωθεί.",module,Magento_AdminNotification
@@ -37,6 +38,7 @@ notice,ανακοίνωση,module,Magento_AdminNotification
 "System messages","Μηνύματα συστήματος",module,Magento_AdminNotification
 Close,Κλείσιμο,module,Magento_AdminNotification
 "See All (","Προβολή Όλων (",module,Magento_AdminNotification
+" unread)"," μη αναγνωσμένα)",module,Magento_AdminNotification
 "Please correct the data sent.","Παρακαλώ διορθώστε τα απεσταλμένα δεδομένα.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Τύπος μοντέλου οντότητας \'%1\' δεν βρέθηκε",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Ο Τύπος μοντέλου οντότητας πρέπει να είναι μια παρουσία του \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -80,6 +82,7 @@ void,άκυρη,module,Magento_Authorizenet
 "Credit Card Number","Αριθμός πιστωτικής κάρτας",module,Magento_Authorizenet
 "Expiration Date","Ημερομηνία Λήξης",module,Magento_Authorizenet
 "Card Verification Number","Αριθμός Επικύρωσης Κάρτας",module,Magento_Authorizenet
+"Fraud Detection ","Εντοπισμός Απάτης ",module,Magento_Authorizenet
 "FDS Filter Action","Ενέργεια Φίλτρου FDS",module,Magento_Authorizenet
 "AVS Response","Απόκριση AVS",module,Magento_Authorizenet
 "Card Code Response","Απάντηση Κωδικού Κάρτας",module,Magento_Authorizenet
@@ -213,6 +216,7 @@ To,Έως,module,Magento_Backend
 "Date selector","Επιλογέας ημερομηνίας",module,Magento_Backend
 "[ deleted ]","[ διεγράφη ]",module,Magento_Backend
 "Select All","Επιλογή όλων",module,Magento_Backend
+" [deleted]"," [διεγράφη]",module,Magento_Backend
 "We couldn't find any records.","Δεν βρέθηκαν εγγραφές.",module,Magento_Backend
 "Add New","Προσθήκη Νέου",module,Magento_Backend
 "Invalid export type supplied for grid export block","Μη έγκυρος τύπος εξαγωγής για το μπλοκ πλέγματος εξαγωγής",module,Magento_Backend
@@ -278,6 +282,7 @@ System,Σύστημα,module,Magento_Backend
 "The store does not exist","Το κατάστημα δεν υπάρχει",module,Magento_Backend
 "Store view doesn't exist","Η προβολή καταστήματος δεν υπάρχει",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Πριν να τροποποιήσετε τον κώδικα της προβολής καταστήματος παρακαλώ βεβαιωθείτε ότι δεν χρησιμοποιείται στο index.php.",module,Magento_Backend
+"New ","Νέο ",module,Magento_Backend
 "You saved the website.","Αποθηκεύσατε την ιστοσελίδα.",module,Magento_Backend
 "An inactive store view cannot be saved as default store view","Μία ανενεργή προβολή καταστήματος δεν μπορεί να αποθηκευτεί ως προεπιλεγμένη προβολή καταστήματος",module,Magento_Backend
 "You saved the store.","Αποθηκεύσατε το κατάστημα.",module,Magento_Backend
@@ -1269,6 +1274,7 @@ Role,Ρόλος,module,Magento_Catalog
 "Unselect Visible","Αποεπιλογή Ορατών",module,Magento_Catalog
 "Special Price","Ειδική Τιμή",module,Magento_Catalog
 "Regular Price","Κανονική τιμή",module,Magento_Catalog
+"Buy %1 for: ","Αγοράστε %1 για: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Αγοράστε %1 με %2 το ένα και <strong class=""benefit""> κερδίστε <span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Αγοράστε %1 με %2 το ένα",module,Magento_Catalog
 "Shop By","Αγορά κατά",module,Magento_Catalog
@@ -1389,6 +1395,8 @@ Checkout,Αγορά,module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Δεν είναι δυνατή η αποθήκευση πληροφοριών μεταφορικών. Παρακαλούμε ελέγξτε τα δεδομένα εισαγωγής.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Ο μεταφορέας με αυτή τη μέθοδο δεν βρέθηκε: %1, %2",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Ο τρόπος αποστολής δεν είναι εφαρμόσιμος για άδειο καλάθι",module,Magento_Checkout
+" item"," στοιχείο",module,Magento_Checkout
+" items"," στοιχεία",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Υπολογισμό συνόλων δεν είναι εφαρμόσιμος για άδειο καλάθι",module,Magento_Checkout
 "Invalid data","Μη έγκυρα δεδομένα",module,Magento_Checkout
 "The customer address is not valid.","Η Διεύθυνση του πελάτη δεν είναι έγκυρη.",module,Magento_Checkout
@@ -2697,6 +2705,7 @@ Status,Κατάσταση,module,Magento_ImportExport
 "Show more","Προβολή περισσότερων",module,Magento_ImportExport
 "Additional data","Πρόσθετα δεδομένα",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Τα επόμενα σφάλματα έχουν επέλθει κατά τη διάρκεια της διαδικασίας εισαγωγής:",module,Magento_ImportExport
+"Only the first 100 errors are shown. ","Εμφανίζονται μόνο τα πρώτα 100 σφάλματα. ",module,Magento_ImportExport
 "Download full report","Κατεβάστε την πλήρη έκθεση",module,Magento_ImportExport
 "in row(s):","στη σειρά(ές):",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Βεβαιωθείτε ότι το αρχείο δεν είναι περισσότερο από %1M.",module,Magento_ImportExport
@@ -3013,6 +3022,8 @@ Items,Είδη,module,Magento_Multishipping
 "Back to Select Addresses","Πίσω στην Επιλογή Διευθύνσεων",module,Magento_Multishipping
 "Thank you for your purchase!","Σας ευχαριστούμε για την αγορά σας!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Ευχαριστούμε για την παραγγελία σας. Θα σας στείλουμε τις λεπτομέρειες παραγγελίας και τις πληροφορίες εντοπισμού.",module,Magento_Multishipping
+"Your order numbers are: ","Οι αριθμοί παραγγελίας σας είναι: ",module,Magento_Multishipping
+"Your order number is: ","Ο αριθμός παραγγελίας σας είναι: ",module,Magento_Multishipping
 "Continue Shopping","Συνέχεια Αγορών",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Κανένα νέο ID Εφαρμογής Relic έχει ρυθμιστεί, δεν μπορούμε να συνεχίσουμε με Γεγονός αναφοράς Cron",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -3115,6 +3126,7 @@ Paused,"Σε παύση",module,Magento_Newsletter
 "Add to Queue","Προσθήκη στην ουρά",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Είστε βέβαιοι ότι θέλετε να αφαιρέσετε όλες τις ετικέτες;",module,Magento_Newsletter
 "Please enter a new template name.","Πληκτρολογήστε ένα νέο όνομα προτύπου.",module,Magento_Newsletter
+" Copy"," Αντιγραφή",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πρότυπο;",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Εγγραφή στο Ενημερωτικό Δελτίο:",module,Magento_Newsletter
 "Enter your email address","Εισάγετε την ηλεκτρονική σας διεύθυνση",module,Magento_Newsletter
@@ -3205,6 +3217,7 @@ No,Όχι,module,Magento_Payment
 "Failure #2","Αποτυχία #2",module,Magento_Payment
 "Expiration Date","Ημερομηνία Λήξης",module,Magento_Payment
 "Card Verification Number","Αριθμός Επικύρωσης Κάρτας",module,Magento_Payment
+" is not available. You still can process offline actions."," δεν είναι διαθέσιμο. Μπορείτε ακόμα να επεξεργαστείτε μη συνδεδεμένες ενέργειες.",module,Magento_Payment
 "Please Select","Παρακαλώ Επιλέξτε",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Θα σας ζητήσουμε τα στοιχεία πληρωμής σας πριν κάνετε παραγγελία.",module,Magento_Payment
 "--Please Select--","--Παρακαλώ επιλέξτε--",module,Magento_Payment
@@ -3474,6 +3487,7 @@ Funding,Χρηματοδότηση,module,Magento_Paypal
 "General (Purchase with a credit card)","Γενικό (πληρωμή με πιστωτική κάρτα)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Γενική ρύθμιση χωρίς εμπορικά σχετικά γεγονός",module,Magento_Paypal
 "General Currency Conversion","Γενική Μετατροπή Νομίσματος",module,Magento_Paypal
+"General Funding of PayPal Account ","Γενική Χρηματοδότηση Λογαριασμού PayPal ",module,Magento_Paypal
 "General Redemption","Γενική Εξαργύρωση",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Γενικά Ανάληψη από Λογαριασμό PayPal",module,Magento_Paypal
 "General. Product no longer supported","Γενικα. Προϊόν δεν υποστηρίζεται πλέον",module,Magento_Paypal
@@ -3547,7 +3561,10 @@ Customer,Πελάτης,module,Magento_Paypal
 "Updated At","Ενημερώθηκε στις",module,Magento_Paypal
 ending,λήγει,module,Magento_Paypal
 expires,λήγει,module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Δεν είστε σίγουροι ποια μέθοδο πληρωμής PayPal να χρησιμοποιήσετε; Κάντε κλικ ",module,Magento_Paypal
 here,εδώ,module,Magento_Paypal
+" to learn more."," για να μάθετε περισσότερα.",module,Magento_Paypal
+"Important: ","Σημαντικό: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Για να χρησιμοποιήσετε το PayPal Payments Advanced, πρέπει να ρυθμίσετε το PayPal Payments Advanced λογαριασμό σας στην ιστοσελίδα PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Μόλις συνδεθείτε στο λογαριασμό σας PayPal για προχωρημένους, μεταβείτε στο μενού Ρυθμίσεις Υπηρεσίας - Φιλοξενία Σελίδων Ολοκλήρωσης Παραγγελίας - Ρυθμίσεις Μενού και ορίστε τις επιλογές που περιγράφονται παρακάτω",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Για να χρησιμοποιήσετε το σύνδεσμο PayPal Payflow, πρέπει να ρυθμίσετε το σύνδεσμο λογαριασμού σας PayPal Payflow στην ιστοσελίδα του PayPal.",module,Magento_Paypal
@@ -3556,6 +3573,7 @@ here,εδώ,module,Magento_Paypal
 "Credit Card Number","Αριθμός Πιστωτικής Κάρτας",module,Magento_Paypal
 "Expiration Date","Ημερομηνία Λήξης",module,Magento_Paypal
 "Card Verification Number","Αριθμός Επικύρωσης Κάρτας",module,Magento_Paypal
+"Billing Agreement # ","Συμφωνία Χρέωσης # ",module,Magento_Paypal
 "Agreement Information","Πληροφορίες Συμφωνίας",module,Magento_Paypal
 "Reference ID:","ID Αναφοράς:",module,Magento_Paypal
 Status:,Κατάσταση:,module,Magento_Paypal
@@ -3576,6 +3594,7 @@ View,Προβολή,module,Magento_Paypal
 "-- Please Select --","--Παρακαλώ επιλέξτε--",module,Magento_Paypal
 Create...,Δημιουργία...,module,Magento_Paypal
 "Your credit card will be charged for","Την πιστωτική σας κάρτα θα χρεωθεί με",module,Magento_Paypal
+"Your billing agreement # is: ","Η συμφωνία χρέωσής σας # είναι: ",module,Magento_Paypal
 "Shipping Method","Μέθοδος Αποστολής",module,Magento_Paypal
 "Please select a shipping method...","Παρακαλώ επιλέξτε μία μέθοδο αποστολής...",module,Magento_Paypal
 "Update Shipping Method","Ενημέρωση τρόπου αποστολής",module,Magento_Paypal
@@ -4299,6 +4318,7 @@ Reorder,"Επανάληψη της παραγγελίας",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Αυτή η παραγγελία περιέχει (%1) στοιχεία και επομένως δεν μπορείτε να την επεξεργαστείτε μέσα από το περιβάλλον του διαχειριστή. Εάν επιθυμείτε να συνεχίσετε την επεξεργασία, θα καταργηθούν τα στοιχεία (%2), η παραγγελία θα ακυρωθεί και μια νέα παραγγελία θα τοποθετηθεί.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Είσαι σίγουρος; Αυτή η σειρά θα ακυρωθεί και θα δημιουργηθεί μία νέα αντί αυτης.",module,Magento_Sales
 "Save Gift Message","Αποθηκεύστε το Μήνυμα Δώρου",module,Magento_Sales
+" [deleted]"," [διεγράφη]",module,Magento_Sales
 "Order Credit Memos","Πιστωτικά Υπομνήματα Παραγγελίας",module,Magento_Sales
 "Credit memo #%1 created","Δημιουργήθηκε το πιστωτικό υπόμνημα #%1",module,Magento_Sales
 "Credit memo #%1 comment added","Σχόλιο πιστωτικού υπομνήματος #%1 προστέθηκε",module,Magento_Sales
@@ -4444,6 +4464,8 @@ Home,Αρχική,module,Magento_Sales
 "We can't find this wish list.","Δεν μπορούμε να βρούμε αυτή τη λίστα επιθυμιτών.",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Δεν μπορούμε να προσθέσουμε ένα προϊόν στο καλάθι με ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Υπάρχει σφάλμα σε μία από τις σειρές επιλογής.",module,Magento_Sales
+"Shipping Address: ","Διεύθυνση Αποστολής: ",module,Magento_Sales
+"Billing Address: ","Διεύθυνση Χρέωσης: ",module,Magento_Sales
 "Please specify order items.","Παρακαλείστε να προσδιορίσετε τα στοιχεία παραγγελίας.",module,Magento_Sales
 "Please specify a shipping method.","Παρακαλείστε να προσδιορίσετε μια μέθοδο αποστολής.",module,Magento_Sales
 "Please specify a payment method.","Παρακαλώ επιλέξτε μια μέθοδο πληρωμής.",module,Magento_Sales
@@ -4530,6 +4552,8 @@ Authorization,Εξουσιοδότηση,module,Magento_Sales
 "Please set a proper payment and order id.","Παρακαλώ ορίστε ένα κατάλληλο id πληρωμής και παραγγελίας.",module,Magento_Sales
 "Please enter a Transaction ID.","Παρακαλούμε εισάγετε ένα id συναλλαγής.",module,Magento_Sales
 "You can't do this without a transaction object.","Δεν μπορείτε να το κάνετε αυτό χωρίς ένα αντικείμενο συναλλαγής.",module,Magento_Sales
+"Order # ","Παραγγελία # ",module,Magento_Sales
+"Order Date: ","Ημ/νία Παραγγελίας: ",module,Magento_Sales
 "Sold to:","Πωλήθηκε σε:",module,Magento_Sales
 "Ship to:","Αποστολή σε:",module,Magento_Sales
 "Payment Method:","Μέθοδος Πληρωμής:",module,Magento_Sales
@@ -4545,6 +4569,8 @@ Products,Προϊόντα,module,Magento_Sales
 Qty,Ποσότητα,module,Magento_Sales
 Tax,Φόροι,module,Magento_Sales
 "Total (inc)","Σύνολο (με)",module,Magento_Sales
+"Credit Memo # ","Πιστωτικό Υπόμνημα # ",module,Magento_Sales
+"Invoice # ","Παραστατικό # ",module,Magento_Sales
 "The order object is not specified.","Δεν έχει καθοριστεί το αντικείμενο παραγγελιας.",module,Magento_Sales
 "The source object is not specified.","Το αντικείμενο προέλευσης δεν έχει καθοριστεί.",module,Magento_Sales
 "An item object is not specified.","Ένα αντικείμενο στοιχείου δεν έχει καθοριστεί.",module,Magento_Sales
@@ -4552,6 +4578,7 @@ Tax,Φόροι,module,Magento_Sales
 "A PDF page object is not specified.","Ένα αντικείμενο σελίδας PDF δεν έχει καθοριστεί.",module,Magento_Sales
 "Excl. Tax","Χωρίς ΦΠΑ",module,Magento_Sales
 "Incl. Tax","Με ΦΠΑ",module,Magento_Sales
+"Packing Slip # ","Συσκευασίας Slip # ",module,Magento_Sales
 title,τίτλος,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","Το συνολικό μοντέλο PDF %1 πρέπει να ειναι ή επέκταση του \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Δεν μπορούμε να καταχωρήσουμε μια υπάρχουσα αποστολή",module,Magento_Sales
@@ -4605,6 +4632,7 @@ Closed,Κλειστό,module,Magento_Sales
 New,Νέο,module,Magento_Sales
 "test message","δοκιμαστικό μήνυμα",module,Magento_Sales
 "Email has not been sent","Το Email δεν έχει σταλεί",module,Magento_Sales
+" Transaction ID: ""%1"""," Κωδικός Συναλλαγής: ""%1""",module,Magento_Sales
 View,Προβολή,module,Magento_Sales
 "Group was removed","Η Ομάδα καταργήθηκε",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Η αλλαγή πληροφοριών διεύθυνσης δεν θα επαναϋπολογίσει ποσό αποστολής, φορολογικό ή άλλο ποσό παραγγελίας.",module,Magento_Sales
@@ -4826,6 +4854,7 @@ Reports,Αναφορές,module,Magento_Search
 "Synonym group with id %1 cannot be deleted. %2","Ομάδα συνώνυμου με id %1 δεν μπορεί να διαγραφεί. %2",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","Διένεξη συγχώνευσης με υπάρχουσες ομάδες συνώνυμου: %1",module,Magento_Search
 "All Websites","Όλες οι Ιστοσελίδες",module,Magento_Search
+"    All Store Views","    Όλες οι Προβολές Καταστήματος",module,Magento_Search
 "All Store Views","Όλες οι Προβολές Καταστήματος",module,Magento_Search
 Delete,Διαγραφή,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ομάδα συνώνυμου με id: %1;",module,Magento_Search
@@ -5026,7 +5055,10 @@ SKU,Κωδικός,module,Magento_Shipping
 "Tracking Number:","Αριθμός Εντοπισμού:",module,Magento_Shipping
 Carrier:,Πάροχος:,module,Magento_Shipping
 Error:,Σφάλμα:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Πληροφορίες Παρακολούθησης δεν είναι διαθέσιμες. Παρακαλώ ",module,Magento_Shipping
 "contact us","επικοινωνήστε μαζί μας",module,Magento_Shipping
+" for more information or "," για περισσότερες πληροφορίες ή ",module,Magento_Shipping
+"email us at ","Επικοινωνήστε μαζί μας στο ",module,Magento_Shipping
 Info:,Πληροφορίες:,module,Magento_Shipping
 Track:,Κομμάτι:,module,Magento_Shipping
 Status:,Κατάσταση:,module,Magento_Shipping
@@ -5256,7 +5288,12 @@ Total,Σύνολο,module,Magento_Tax
 "Including Tax","Περιλαμβάνει Φόρο",module,Magento_Tax
 None,Κανένα,module,Magento_Tax
 "Including and Excluding Tax","Με και Χωρίς Φόρο",module,Magento_Tax
+"Warning tax configuration can result in rounding errors. ","Προειδοποίηση ρύθμιση παραμέτρων φόρου μπορεί να οδηγήσει σε σφάλματα στρογγυλοποίησης. ",module,Magento_Tax
+"Store(s) affected: ","Κατάστημα(τα) που επηρεάζονται: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Κάντε κλικ στο σύνδεσμο για να <a href=""%1""> παραβλέψετε αυτήν την ειδοποίηση</a>",module,Magento_Tax
+"Warning tax discount configuration might result in different discounts
+                                than a customer might expect. ","Προειδοποίηση η έκπτωση φόρου μπορεί να οδηγήσει σε διαφορετικές εκπτώσεις                                από αυτές που αναμένει κάποιος πελάτης. ",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Παρακαλώ ανατρέξτε στην <a href=""%1""> τεκμηρίωση</a> για περισσότερες λεπτομέρειες. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Κάντε κλικ εδώ για να μεταβείτε <a href=""%1"">Ρύθμιση παραμέτρων φόρου</a> και να αλλάξετε τις ρυθμίσεις.",module,Magento_Tax
 "Invalid type of tax class ""%1""","Μη έγκυρος τύπος κλάσης φόρου ""%1""",module,Magento_Tax
 "Updating classType is not allowed.","Δεν επιτρέπεται η ενημέρωση της classType.",module,Magento_Tax
@@ -5852,13 +5889,6 @@ Back,Επιστροφή,module,Magento_Wishlist
 "Remove This Item","Διαγραφή Αυτού του Είδους",module,Magento_Wishlist
 "Go to Wish List","Πηγαίντε στη Λίστα Επιθυμιών",module,Magento_Wishlist
 "You have no items in your wish list.","Δεν έχετε προϊόντα στην λίστα επιθυμιών σας.",module,Magento_Wishlist
-"Now Shopping by","Αγορές Ανά",theme,frontend/Magento/luma
-Previous,Προηγούμενο,theme,frontend/Magento/luma
-Remove,Διαγραφή,theme,frontend/Magento/luma
-"Remove This Item","Διαγραφή Αυτού του Είδους",theme,frontend/Magento/luma
-"Shop By","Αγορά Ανά",theme,frontend/Magento/luma
-"Clear All","Απαλοιφή Όλων",theme,frontend/Magento/luma
-"Shopping Options","Επιλογές Αγορών",theme,frontend/Magento/luma
 "Place Order","Υποβολή Παραγγελίας",module,Magento_Authorizenet
 "Credit Card Information","Στοιχεία πιστωτικής κάρτας",module,Magento_Braintree
 "What is this?","Τι είναι αυτό;",module,Magento_Braintree
@@ -6060,50 +6090,6 @@ Filters,Φίλτρα,module,Magento_Ui
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name θέλει να μοιραστεί αυτήν τη λίστα επιθυμιών από το %store_name μαζί σας:",module,Magento_Wishlist
 "Message from %customer_name:","Μήνυμα από %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Προβολή όλων των ειδών της λίστας επιθυμιών",module,Magento_Wishlist
-"Welcome to %store_name","Καλώς ήλθατε στο %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Καλώς ήλθατε στο %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Για να συνδεθείτε στην ιστοσελίδα μας, χρησιμοποιήστε αυτά τα στοιχεία κατά τη διάρκεια της αγοράς ή στη σελίδα <a href=""%customer_url""> Ο Λογαριασμός μου</a>:",theme,frontend/Magento/luma
-Password:,"Κωδικός πρόσβασης:",theme,frontend/Magento/luma
-"Password you set when creating account","Ο κωδικός πρόσβασης που ορίσατε κατά τη δημιουργία λογαριασμού",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Ξεχάσατε τον κωδικό πρόσβασης του λογαριασμού σας; Κάντε κλικ <a href=""%reset_url""> εδώ</a> για να τον επαναφέρετε.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Όταν συνδεθείτε στο λογαριασμό σας, θα είστε σε θέση να:",theme,frontend/Magento/luma
-"Quick Checkout","Γρήγορη Ολοκλήρωση Αγοράς",theme,frontend/Magento/luma
-"Proceed through checkout faster","Προχωρήστε στο ταμείο πιο γρήγορα",theme,frontend/Magento/luma
-"Order Status","Κατάσταση Παραγγελίας",theme,frontend/Magento/luma
-"Check the status of orders","Ελέγξτε την Κατάσταση των Παραγγελιών",theme,frontend/Magento/luma
-"Manage Addresses","Διαχείριση Διευθύνσεων",theme,frontend/Magento/luma
-"Store alternative addresses","Αποθηκεύστε τις εναλλακτικές διευθύνσεις",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Για αποστολή σε πολλαπλούς συγγενείς και φίλους",theme,frontend/Magento/luma
-"Order History","Ιστορικό Παραγγελιών",theme,frontend/Magento/luma
-"View past orders","Προβολή προηγούμενων παραγγελιών",theme,frontend/Magento/luma
-Footer,Υποσέλιδο,theme,frontend/Magento/luma
-"About Us","Σχετικά με εμάς",theme,frontend/Magento/luma
-"Customer Service","Εξυπηρέτηση Πελατών",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""τηλ:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Ωράριο Λειτουργίας: <br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Πιστωτικό υπόμνημα για την παραγγελία σας στο %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Σας ευχαριστούμε για την παραγγελία σας από το %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Μπορείτε να ελέγξετε την κατάσταση της παραγγελίας σας, <a href=""%account_url"">με το να συνδεθείτε στο λογαριασμό σας</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Εάν έχετε ερωτήσεις σχετικά με την παραγγελία σας, μπορείτε να μας στείλετε email στο <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Το Πιστωτικό Τιμολόγιο #%creditmemo_id για την Παραγγελία #%order_id",theme,frontend/Magento/luma
-"Billing Info","Πληροφορίες Χρέωσης",theme,frontend/Magento/luma
-"Shipping Info","Πληροφορίες Αποστολής",theme,frontend/Magento/luma
-"Payment Method","Μέθοδος Πληρωμής",theme,frontend/Magento/luma
-"Shipping Method","Μέθοδος Αποστολής",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Ενημέρωση πιστωτικού υπομνήματος στο %store_name",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Η παραγγελία σας #%increment_id άλλαξε κατάσταση σε <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","Τιμολόγιο για την παραγγελία σας στο %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Το Αποδεικτικό %invoice_id # για την Παραγγελία #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Ενημέρωση τιμολογίου στο %store_name",theme,frontend/Magento/luma
-"Your %store_name order confirmation","Επιβεβαίωση της παραγγελίας σας στο %store_name",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Όταν αποσταλεί το δέμα σας θα σας στείλουμε τον αριθμό παρακολούθησης του.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Η Παραγγελία σας <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Τοποθετήθηκε στις <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Ενημέρωση παραγγελίας σας στο %store_name",theme,frontend/Magento/luma
-"Your %store_name order has shipped","Αποστολή της παραγγελίας σας από %store_name",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Η επιβεβαίωση της αποστολής σας είναι παρακάτω. Σας ευχαριστούμε και πάλι για την εμπιστοσύνη σας.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Αριθμ. Αποστολής %shipment_id # για την Παραγγελία #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Ενημέρωση αποστολής παραγγελίας σας από %store_name",theme,frontend/Magento/luma
 "We could not detect a size.","Δεν μπορούσαμε να ανιχνεύσουμε ένα μέγεθος.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Δεν αναγνωρίζουμε ή υποστηρίζουμε αυτή την κατάληξη αρχείου.",module,Magento_Backend
 "This payment is not available","Η πληρωμή αυτή δεν είναι διαθέσιμη",module,Magento_Braintree
@@ -6127,6 +6113,7 @@ Added,Προστέθηκε,module,Magento_Catalog
 "unselect all","αποεπιλογή όλων",module,Magento_Catalog
 Close,Κλείσιμο,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Ο παρεχόμενος Ταχυδρομικός Κώδικας φαίνεται να μην είναι έγκυρος.",module,Magento_Checkout
+" Example: "," Παράδειγμα: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Αν πιστεύετε ότι είναι το σωστό, μπορείτε να παραβλέψετε αυτήν την ειδοποίηση.",module,Magento_Checkout
 "Review & Payments","Αναθεώρηση & Πληρωμές",module,Magento_Checkout
 Shipping,Μεταφορικά,module,Magento_Checkout
@@ -6159,13 +6146,19 @@ Medium,Μεσαίο,module,Magento_Customer
 Strong,Ισχυρός,module,Magento_Customer
 "Very Strong","Πολύ Ισχυρός",module,Magento_Customer
 "Guest checkout is disabled.","Η αγορά ως επισκέπτης είναι απενεργοποιημένη.",module,Magento_Customer
+"Field ","Πεδίο ",module,Magento_Dhl
+" is required."," απαιτείται.",module,Magento_Dhl
 "We could not detect a size.","Δεν μπορούσαμε να ανιχνεύσουμε ένα μέγεθος.",module,Magento_Downloadable
+"Field ","Πεδίο ",module,Magento_Fedex
+" is required."," απαιτείται.",module,Magento_Fedex
 "Sorry, something went wrong. Please try again later.","Λυπούμαστε, κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά αργότερα.",module,Magento_Integration
 "Popup Blocker is enabled! Please add this site to your exception list.","O Αποκλεισμός Αναδυόμενων Παραθύρων είναι ενεργοποιημένος! Παρακαλώ προσθέστε αυτήν την τοποθεσία στη λίστα εξαίρεσης.",module,Magento_Integration
 Allow,"Να επιτρέπεται",module,Magento_Integration
 Done,Επιτυχής,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Δεν μπορούμε να ολοκληρώσουμε την παραγγελία σας, επειδή δεν έχετε προσδιορίσει μια μέθοδο πληρωμής.",module,Magento_Multishipping
 "Please choose a payment method.","Παρακαλώ επιλέξτε μια μέθοδο πληρωμής.",module,Magento_Multishipping
+"Field ","Πεδίο ",module,Magento_OfflineShipping
+" is required."," απαιτείται.",module,Magento_OfflineShipping
 "Unable to place order. Please try again later.","Δεν είναι δυνατή η καταχώρηση της παραγγελίας. Παρακαλώ, προσπαθήστε ξανά αργότερα.",module,Magento_Payment
 "Sorry, something went wrong.","Συγνώμη, κάτι πήγε λάθος.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Λυπούμαστε, κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά αργότερα.",module,Magento_Paypal
@@ -6173,6 +6166,7 @@ Done,Επιτυχής,module,Magento_Integration
 "Unknown video type","Άγνωστου τύπος βίντεο",module,Magento_ProductVideo
 "Invalid video url","Μη έγκυρη διεύθυνση url βίντεο",module,Magento_ProductVideo
 "Youtube API key is invalid","Το API κλειδί του YouTube δεν είναι έγκυρο",module,Magento_ProductVideo
+"Video cant be shown due to the following reason: ","Το Βίντεο δεν μπορεί να προβληθεί λόγω των ακόλουθων: ",module,Magento_ProductVideo
 "Video not found","Το βίντεο δεν βρέθηκε",module,Magento_ProductVideo
 "New Video","Νέο Βίντεο",module,Magento_ProductVideo
 Save,Αποθήκευση,module,Magento_ProductVideo
@@ -6183,6 +6177,7 @@ Delete,Διαγραφή,module,Magento_ProductVideo
 "This won't take long . . .","Αυτό δεν θα αργήσει . . .",module,Magento_Rule
 "Your coupon was successfully removed.","Το κουπόνι σας καταργήθηκε με επιτυχία.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Το κουπόνι σας εφαρμόστηκε με επιτυχία.",module,Magento_SalesRule
+"Gift Options for ","Επιλογές Δώρου για ",module,Magento_Sales
 "Add Products","Προσθέστε προϊόντα",module,Magento_Sales
 "You have item changes","Έχετε αλλαγές στα είδη",module,Magento_Sales
 Ok,Οκ,module,Magento_Sales
@@ -6277,6 +6272,10 @@ Attention,Προσοχή,module,Magento_Ui
 OK,Οκ,module,Magento_Ui
 Close,Κλείσιμο,module,Magento_Ui
 Ok,Οκ,module,Magento_Ui
+"Field ","Πεδίο ",module,Magento_Ups
+" is required."," απαιτείται.",module,Magento_Ups
+"Field ","Πεδίο ",module,Magento_Usps
+" is required."," απαιτείται.",module,Magento_Usps
 Cancel,Ακύρωση,module,Magento_Vault
 "Show Toolbar","Εμφάνιση γραμμής εργαλείων",module,Magento_AdminNotification
 "Show List","Εμφάνιση Λίστας",module,Magento_AdminNotification
@@ -6418,6 +6417,10 @@ Security,Ασφάλεια,module,Magento_Backend
 "Enable Charts","Ενεργοποίηση Διαγραμμάτων",module,Magento_Backend
 "Url Options","Επιλογές URL",module,Magento_Backend
 "Add Store Code to Urls","Προσθέστε Κώδικα Καταστήματος στις Διευθύνσεις Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> Προειδοποίηση!</strong> Όταν χρησιμοποιείτε κώδικα καταστήματος σε διευθύνσεις URLs, σε ορισμένες περιπτώσεις συστήματος ενδέχεται να μην λειτουργούν σωστά εάν οι διευθύνσεις URL χωρίς κωδικούς καταστήματος καθορίζονται στις υπηρεσίες τρίτων (π.χ. PayPal κτλ.).                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Αυτόματη-ανακατεύθυνση σε διεύθυνση URL βάσης",module,Magento_Backend
 "Search Engine Optimization","Βελτιστοποίηση Μηχανών Αναζήτησης (SEO)",module,Magento_Backend
 "Use Web Server Rewrites","Χρήση Web Server Rewrites",module,Magento_Backend
@@ -6548,6 +6551,9 @@ Forms,Φόρμες,module,Magento_Captcha
 "Number of Symbols","Αριθμός Συμβόλων",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Παρακαλώ να προσδιορίσετε το πολύ 8 σύμβολα. Επιτρεπόμενο εύρος (π.χ. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Σύμβολα που Χρησιμοποιούνται στο CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","                         Παρακαλώ χρησιμοποιήστε μόνο γράμματα (a-z ή Α-Z) ή αριθμούς (0-9) στο πεδίο αυτό. Κενά διαστήματα ή άλλοι χαρακτήρες δεν επιτρέπονται. < br / > Παρόμοιας μορφής χαρακτήρες (π.χ. «i», ""l"", ""1"") μειώνουν την πιθανότητα σωστής αναγνώρισης από τον πελάτη.                     ",module,Magento_Captcha
 "Case Sensitive","Διάκριση Πεζών-Κεφαλαίων",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ενεργοποίηση CAPTCHA στο Κατάστημα",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Η επιβεβαίωση CAPTCHA για τις φόρμες ""Δημιουργία χρήστη"" και ""Υπενθύμιση κωδικού"" θα είναι πάντα ενεργοποιημένη, αν επιλεχθεί.",module,Magento_Captcha
@@ -6561,6 +6567,10 @@ Inventory,Απόθεμα,module,Magento_CatalogInventory
 "Only X left Threshold","Όριο για Μόνο X απόμειναν",module,Magento_CatalogInventory
 "Display Products Availability in Stock on Storefront","Εμφάνιση διαθεσιμότητας των προϊόντων σε απόθεμα στην βιτρίνα καταστήματος",module,Magento_CatalogInventory
 "Product Stock Options","Επιλογές Αποθέματος Προϊόντων",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+Παρακαλείστε να σημειώσετε ότι αυτές οι ρυθμίσεις ισχύουν για μεμονωμένα αντικείμενα στο καλάθι, όχι για ολοκληρο το καλάθι.                ",module,Magento_CatalogInventory
 "Manage Stock","Διαχείριση Αποθεμάτων",module,Magento_CatalogInventory
 Backorders,Προπαραγγελίες,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Μέγιστη ποσότητα που επιτρέπεται στο καλάθι αγορών",module,Magento_CatalogInventory
@@ -6883,6 +6893,7 @@ Contacts,Επαφές,module,Magento_Contact
 "Cookie Restriction Mode","Λειτουργία περιορισμού cookie",module,Magento_Cookie
 "Cron (Scheduled Tasks)","Cron (προγραμματισμένες εργασίες)",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","Για σωστές διευθύνσεις URL που δημιουργούνται κατά τη διάρκεια cron τρέχει παρακαλώ σιγουρευτείτε ότι Web > ασφαλές και μη ασφαλές URL βάσης ορίζονται ρητά. Όλες οι χρόνοι είναι μέσα σε λίγα λεπτά.",module,Magento_Cron
+"Cron configuration options for group: ","Cron επιλογές ρύθμισης παραμέτρων για την ομάδα: ",module,Magento_Cron
 "Generate Schedules Every","Δημιουργήσετε χρονοδιαγράμματα κάθε",module,Magento_Cron
 "Schedule Ahead for","Προγραμματισμένη μπροστά για",module,Magento_Cron
 "Missed if Not Run Within","Αποτυγχάνει εάν δεν εκτελεστεί εντός",module,Magento_Cron
@@ -6913,10 +6924,20 @@ Currency,Νόμισμα,module,Magento_CurrencySymbol
 "Default Welcome Email","Προπιλεγμένο Email Kαλωσορίσματος",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Το πρότυπο του email που επιλέγονται με βάση το θέμα επιστρέφει όταν είναι ενεργοποιημένη η επιλογή ""Προεπιλογή"".",module,Magento_Customer
 "Default Welcome Email Without Password","Προεπιλεγμένο Email Καλωσορίσματος Χωρίς κωδικό πρόσβασης",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Αυτό το email θα σταλεί αντί για το προεπιλεγμένο Email καλωσορίσματος, εάν ένας πελάτης έχει δημιουργηθεί χωρίς κωδικό πρόσβασης. < br / > < br / > To πρότυπο Email επιλέγεται βάσει την επιστροφή θέματος όταν είναι ενεργοποιημένη η επιλογή ""Προεπιλογή"".                    ",module,Magento_Customer
 "Email Sender","Αποστολέας ηλεκτρονικού ταχυδρομείου",module,Magento_Customer
 "Require Emails Confirmation","Να Απαιτείται Eπαλήθευση Email",module,Magento_Customer
 "Confirmation Link Email","Σύνδεσμος Επιβεβαίωσης Email",module,Magento_Customer
 "Welcome Email","Email Καλώς Ορίσματος",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Αυτό το email θα σταλεί αντί για το προεπιλεγμένο Email καλωσορίσματος, μετά την επιβεβαίωση του λογαριασμού. < br / > < br / > To πρότυπο Email επιλέγεται βάσει την επιστροφή θέματος όταν είναι ενεργοποιημένη η επιλογή ""Προεπιλογή"".                    ",module,Magento_Customer
 "Generate Human-Friendly Customer ID","Δημιουργία Φιλικού προς Ανθρώπους ID πελάτη",module,Magento_Customer
 "Password Options","Επιλογές Κωδικού Πρόσβασης",module,Magento_Customer
 "Forgot Email Template","Πρότυπο Email του Ξεχάσατε τον κωδικό πρόσβασης",module,Magento_Customer
@@ -6937,6 +6958,10 @@ Currency,Νόμισμα,module,Magento_CurrencySymbol
 "Show Prefix","Εμφάνιση προθέματος",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Ο τίτλος που πάει πριν από το όνομα (Κος, κα, κτλ.)",module,Magento_Customer
 "Prefix Dropdown Options","Επιλογές Αναπτυσσόμενου μενού Προθέματος",module,Magento_Customer
+"
+                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
+                    ","
+Το ερωτηματικό (;) διαχωρίζει τιμές. <br/> Βάλτε ερωτηματικό στην αρχή για την κενή πρώτη επιλογή. <br/> Αφήστε κενό για άνοιχτό πεδίο κειμένου.                    ",module,Magento_Customer
 "Show Middle Name (initial)","Εμφάνιση πατρώνυμο (αρχικό)",module,Magento_Customer
 "Always optional.","Πάντα προαιρετική.",module,Magento_Customer
 "Show Suffix","Εμφάνιση επιθέματος",module,Magento_Customer
@@ -7023,6 +7048,10 @@ Debug,Αποσφαλμάτωση,module,Magento_Dhl
 "Currency Setup","Εγκατάσταση Νομίσματος",module,Magento_Directory
 "Currency Options","Επιλογές Νομίσματος",module,Magento_Directory
 "Base Currency","Βασικό Νόμισμα",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+Το βασικό νόμισμα χρησιμοποιείται για όλες τις συναλλαγές ηλεκτρονικών πληρωμών. Το πεδίο εφαρμογής της νομισματικής βάσης ορίζεται από το πεδίο τιμής καταλόγου (""Κατάλογος"" > ""Τιμή"" > ""Πεδίο τιμής καταλόγου"").                    ",module,Magento_Directory
 "Default Display Currency","Προεπιλεγμένη Προβολή Νομίσματος",module,Magento_Directory
 "Allowed Currencies","Επιτρεπόμενα Νομίσματα",module,Magento_Directory
 "Yahoo Finance Exchange","Yahoo Οικονομικές Μετατροπές",module,Magento_Directory
@@ -7281,6 +7310,7 @@ Import,Εισαγωγή,module,Magento_OfflineShipping
 "Backend port","Θύρα παρασκηνίου",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Καθορίστε μία πόρτα εξυπηρετητή παρασκηνίου για τη δημιουργία του αρχείου ρυθμίσεων. Αν το πεδίο είναι κενό η προεπιλεγμένη αξία 8080 θα αποθηκευτεί.",module,Magento_PageCache
 "TTL for public content","TTL για δημόσιο περιεχόμενο",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Χρονική διάρκεια δημόσιου περιεχόμενου της προσωρινής μνήμης σε δευτερόλεπτα. Αν το πεδίο είναι κενό θα αποθηκευτεί προεπιλεγμένη τιμή 86400. ",module,Magento_PageCache
 "Page Cache","Cache Σελίδας",module,Magento_PageCache
 "Full page caching","Caching πλήρους σελίδας",module,Magento_PageCache
 "Payment Methods Section","Ενότητα Τρόπων Πληρωμής",module,Magento_Payment
@@ -7295,6 +7325,10 @@ Manage,Διαχείριση,module,Magento_Paypal
 "Merchant Location","Τοποθεσία Εμπόρου",module,Magento_Paypal
 "Merchant Country","Χώρα Εμπόρου",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Εάν δεν καθοριστεί, θα χρησιμοποιηθεί προεπιλεγμένη χώρα από Γενική Ρύθμιση",module,Magento_Paypal
+"
+                    PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
+                ","
+Λύσεις πληρωμής PayPal All-in-One&nbsp;&nbsp;<i>Αποδοχή και Επεξεργασία Πιστωτικών Κάρτών και πληρωμών PayPal.</i>                ",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Επιλέξτε μια συνδυαστική λύση ασφαλών πληρωμών για την επιχείρησή σας.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Payments Pro και Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Βασικές Ρυθμίσεις - Πληρωμές PayPal Pro",module,Magento_Paypal
@@ -7306,6 +7340,10 @@ Manage,Διαχείριση,module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Προσθέστε το PayPal σαν μια επιπλέον μέθοδο πληρωμής στη σελίδα ολοκλήρωση της παραγγελίας σας.",module,Magento_Paypal
 "Required PayPal Settings","Απαραίτητες ρυθμίσεις PayPal",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account","Διεύθυνση Email που συσχετίζεται με το λογαριασμό εμπόρου PayPal",module,Magento_Paypal
+"
+                        <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
+                    ","
+<a href=""http://www.magentocommerce.com/paypal"">αρχίστε να δέχεστε πληρωμές μέσω PayPal!</a>                    ",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Δεν έχετε λογαριασμό PayPal; Απλά εισάγετε τη διεύθυνση του email σας.",module,Magento_Paypal
 "API Authentication Methods","Μέθοδοι ελέγχου ταυτότητας API",module,Magento_Paypal
 "API Username","API Όνομα χρήστη",module,Magento_Paypal
@@ -7317,10 +7355,28 @@ Manage,Διαχείριση,module,Magento_Paypal
 "Proxy Port","Θύρα Διακομιστή Μεσολάβησης",module,Magento_Paypal
 "Enable this Solution","Ενεργοποίηση αυτής της λύσης",module,Magento_Paypal
 "Enable In-Context Checkout Experience","Ενεργοποίηση στο πλαίσιο της Διαδικασίας Ολοκλήρωσης Παραγγελίας",module,Magento_Paypal
+"
+                    See PayPal Feature Support details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.
+                ","
+Δείτε Λεπτομέρειες Χαρακτηριστικών Γνωρισμάτων Υποστήριξης PayPal και λίστα υποστηριζόμενων περιοχών <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">εδώ</a>.                ",module,Magento_Paypal
 "Merchant Account ID","ID Λογαριασμού Εμπόρου",module,Magento_Paypal
 "Enable PayPal Credit","Ενεργοποίηση PayPal Credit",module,Magento_Paypal
+"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
+                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
+                        <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
+                ","Γρήγορη Ολοκλήρωση Παραγγελίας PayPal Express Checkout σάς δίνει τη δυνατότητα να παρέχετε στους πελάτες πρόσβαση σε χρηματοδότηση μέσω PayPal Credit® - χωρίς επιπλέον κόστος για εσάς.                         Μπορείτε να πληρώνεστε μπροστά, ακόμα κι αν οι πελάτες έχουν περισσότερο χρόνο για να πληρώσουν. Ένα προ-ολοκληρωμένο κουμπί πληρωμής  επιτρέπει στους πελάτες να πληρώσουν γρήγορα και με PayPal Credit®.                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Μάθετε περισσότερα</a>                ",module,Magento_Paypal
 "Sort Order PayPal Credit","Ταξινόμηση Πίστωσης PayPal",module,Magento_Paypal
 "Advertise PayPal Credit","Διαφημίστε το PayPal Credit",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                     <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Γιατί διαφημίσετε χρηματοδοτήσεις;</a><br/>                         <strong>Ενισχύστε τις πωλήσεις σας όταν μπορείτε να διαφημίσετε χρηματοδότηση.</strong> <br/>Το PayPal βοηθά να μετατρέψει το προγράμματα περιήγησης σε αγοραστές με χρηματοδότηση από το PayPal Credit®. Οι πελάτες σας έχουν περισσότερο χρόνο για να πληρώσουν, ενώ μπορείτε να πληρώνεστε εκ των προτέρων – χωρίς επιπλέον κόστος για εσάς.                         Η Χρήση των δωρεάν διαφημιστικών banners του PayPal σας επιτρέπουν να διαφημιστείτε PayPal Credit® χρηματοδότηση ως μέσο πληρωμής, όταν οι πελάτες σας πληρώνουν με PayPal.                         Το διαφημιστικό πρόγραμμα PayPal έχει αποδειχθεί ότι δημιουργεί πρόσθετες αγορές, καθώς και αύξηση μεγεθών της μέση αγοράς του καταναλωτή κατά 15% <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Δείτε λεπτομέρειες</a>.                ",module,Magento_Paypal
 "Publisher ID","ID Εκδότη",module,Magento_Paypal
 "Required to display a banner","Απαιτείται για να εμφανιστεί ένα banner",module,Magento_Paypal
 "Get Publisher ID from PayPal","Λάβετε το Αναγνωριστικό Εκδότη από το PayPal",module,Magento_Paypal
@@ -7361,9 +7417,17 @@ Title,Τίτλος,module,Magento_Paypal
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Αυτή η δυνατότητα πρέπει να ενεργοποιηθεί πρώτα για τον εμπορικό λογαριασμό μέσω της τεχνικής υποστήριξης του PayPal.",module,Magento_Paypal
 "Billing Agreement Signup","Εγγραφή Συμφωνίας Χρέωσης",module,Magento_Paypal
 "Whether to create a billing agreement, if there are no active billing agreements available.","Αν θέλετε να δημιουργήσετε μια συμφωνία χρέωσης, αν δεν υπάρχουν ενεργές διαθέσιμες συμφωνίες χρέωσης.",module,Magento_Paypal
+"
+                        Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.
+                    ","
+Οι έμποροι πρέπει να απευθυνθούν στο PayPal για ενεργοποίηση της δυνατότητας συμφωνιών χρέωσης. Μην ενεργοποιήσετε αυτή την επιλογή μέχρι το PayPal να επιβεβαιώσει ότι οι συμφωνίες χρέωσης είναι ενεργοποιημένες για τον εμπορικό λογαριασμό σας.                    ",module,Magento_Paypal
 "Skip Order Review Step","Παράκαμψη του Βήματος της Ανασκόπησης της Παραγγελίας",module,Magento_Paypal
 "PayPal Billing Agreement Settings","Ρυθμίσεις Συμφωνίας Χρέωσης PayPal",module,Magento_Paypal
 Enabled,Ενεργό,module,Magento_Paypal
+"
+                            Will appear as a payment option only for customers who have at least one active billing agreement.
+                        ","
+Θα εμφανιστεί ως επιλογή πληρωμής μόνο για πελάτες που έχουν τουλάχιστον μία ενεργή συμφωνία χρέωσης.                        ",module,Magento_Paypal
 "Allow in Billing Agreement Wizard","Επιτρέψτε στον Οδηγό της Συμφωνίας Χρέωσης",module,Magento_Paypal
 "Settlement Report Settings","Ρυθμίσεις Αναφορών Επίλυσης",module,Magento_Paypal
 "SFTP Credentials","Πιστοποιητικά SFTP",module,Magento_Paypal
@@ -7383,11 +7447,27 @@ Schedule,Χρονοδιάγραμμα,module,Magento_Paypal
 "Displays on catalog pages and homepage.","Προβολή στις σελίδες του καταλόγου και στην αρχική σελίδα.",module,Magento_Paypal
 "PayPal Merchant Pages Style","Στυλ Σελίδων Εμπόρου PayPal",module,Magento_Paypal
 "Page Style","Στυλ Σελίδας",module,Magento_Paypal
+"
+                            Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
+                        ","
+Επιτρεπόμενες τιμές: ""paypal"", ""κύρια"" (προεπιλογή), your_custom_value (ένα προσαρμοσμένο στυλ σελίδας πληρωμής από το προφίλ του λογαριασμού εμπόρου).                        ",module,Magento_Paypal
 "Header Image URL","Διεύθυνση URL Εικόνας Κεφαλίδας",module,Magento_Paypal
+"
+                            The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.
+                        ","
+Η εικόνα στο πάνω αριστερό μέρος της σελίδας ολοκλήρωσης παραγγελίας. Μέγιστο μέγεθος είναι 750x90-pixel. <strong style=""color:red"">Https</strong> προτιμάται ιδιαίτερα.                        ",module,Magento_Paypal
 "Header Background Color","Χρώμα Φόντου Κεφαλίδας",module,Magento_Paypal
+"
+                            The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.
+                        ","
+Το χρώμα φόντου για την επικεφαλίδα της σελίδα ολοκλήρωσης παραγγελίας. Διάκριση πεζών-κεφαλαίων έξι χαρακτήρων HTML κώδικα χρωμάτων δεκαεξαδικού σε ASCII.                        ",module,Magento_Paypal
 "Header Border Color","Χρώμα Περιγράμματος Κεφαλίδας",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2-pixel περίμετρο γύρω από το χώρο της κεφαλίδας.",module,Magento_Paypal
 "Page Background Color","Χρώμα Φόντου Σελίδας",module,Magento_Paypal
+"
+                            The background color for the checkout page around the header and payment form.
+                        ","
+Το χρώμα φόντου για την σελίδα ολοκλήρωσης της παραγγελίας γύρω από τη κεφαλίδα και τη φόρμα πληρωμής.                        ",module,Magento_Paypal
 "Payments Advanced (Includes Express Checkout)","Προηγμένες Πληρωμές (Περιλαμβάνει Γρήγορη Ολοκλήρωση Παραγγελίας)",module,Magento_Paypal
 "Accept payments with a PCI-compliant checkout that keeps customers on your site.","Δέχονται πληρωμές με μία PCI-συμβατή ολοκλήρωση παραγγελίας που κρατά τους πελάτες στην ιστοσελίδα σας.",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Προηγμένη Πληρωμή και Γρήγορη Ολοκλήρωση Παραγγελίας",module,Magento_Paypal
@@ -7398,6 +7478,15 @@ User,Χρήστης,module,Magento_Paypal
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","Το PayPal συνιστά να ρυθμίσετε ένα πρόσθετο χρήστη στο λογαριασμό σας στο manager.paypal.com, αντί να εισάγετε το admin όνομα χρήστη και κωδικό εδώ. Αυτό θα ενισχύσει την ασφάλειά σας και θα αποτρέψει διακοπές υπηρεσιών, αν αργότερα αλλάξετε τον κωδικό πρόσβασής σας. Εάν δεν θέλετε να ρυθμίσετε ένα πρόσθετο χρήστη, μπορείτε να εισαγάγετε ξανά την σύνδεσή εμπόρου σας εδώ.",module,Magento_Paypal
 "Test Mode","Δοκιμαστική Λειτουργία",module,Magento_Paypal
 "Use Proxy","Χρήση Διακομιστή Μεσολάβησης (Proxy)",module,Magento_Paypal
+"
+                    <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                     <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Γιατί διαφημίσετε χρηματοδοτήσεις;</a><br/>                         <strong>Ενισχύστε τις πωλήσεις σας όταν μπορείτε να διαφημίσετε χρηματοδότηση.</strong> <br/>Το PayPal βοηθά να μετατρέψει το προγράμματα περιήγησης σε αγοραστές με χρηματοδότηση από το PayPal Credit®. Οι πελάτες σας έχουν περισσότερο χρόνο για να πληρώσουν, ενώ μπορείτε να πληρώνεστε εκ των προτέρων – χωρίς επιπλέον κόστος για εσάς.                         Η Χρήση των δωρεάν διαφημιστικών banners του PayPal σας επιτρέπουν να διαφημιστείτε PayPal Credit® χρηματοδότηση ως μέσο πληρωμής, όταν οι πελάτες σας πληρώνουν με PayPal.                         Το διαφημιστικό πρόγραμμα PayPal έχει αποδειχθεί ότι δημιουργεί πρόσθετες αγορές, καθώς και αύξηση μεγεθών της μέση αγοράς του καταναλωτή κατά 15% <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Δείτε λεπτομέρειες</a>.                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Βασικές Ρυθμίσεις - PayPal Πληρωμές για Προχωρημένους",module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Συνιστάται να ορίσετε αυτήν την τιμή για την ""Χρεωστική ή Πιστωτική Κάρτα"" ανά προβολή καταστήματος.",module,Magento_Paypal
 "CVV Entry is Editable","To Πεδίο CVV είναι Επεξεργάσιμο",module,Magento_Paypal
@@ -7413,6 +7502,15 @@ User,Χρήστης,module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Βασικές Ρυθμίσεις - Σύνδεσμος PayPal Payflow",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Ιστοσελίδα Φιλοξενημένης Λύσης Πληρωμών Pro",module,Magento_Paypal
 "Accept payments with a PCI compliant checkout that keeps customers on your site.","Δέχονται πληρωμές με μία PCI συμβατή ολοκλήρωση παραγγελίας που κρατά τους πελάτες στην ιστοσελίδα σας.",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                     <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Γιατί διαφημίσετε χρηματοδοτήσεις;</a><br/>                         <strong>Ενισχύστε τις πωλήσεις σας όταν μπορείτε να διαφημίσετε χρηματοδότηση.</strong> <br/>Το PayPal βοηθά να μετατρέψει το προγράμματα περιήγησης σε αγοραστές με χρηματοδότηση από το PayPal Credit®. Οι πελάτες σας έχουν περισσότερο χρόνο για να πληρώσουν, ενώ μπορείτε να πληρώνεστε εκ των προτέρων – χωρίς επιπλέον κόστος για εσάς.                         Η Χρήση των δωρεάν διαφημιστικών banners του PayPal σας επιτρέπουν να διαφημιστείτε PayPal Credit® χρηματοδότηση ως μέσο πληρωμής, όταν οι πελάτες σας πληρώνουν με PayPal.                         Το διαφημιστικό πρόγραμμα PayPal έχει αποδειχθεί ότι δημιουργεί πρόσθετες αγορές, καθώς και αύξηση μεγεθών της μέση αγοράς του καταναλωτή κατά 15% <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Δείτε λεπτομέρειες</a>.                <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">.                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Βασικές ρυθμίσεις - PayPal Φιλοξενημένη Λύση Πληρωμών Pro",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Οθόνη Γρήγορης Ολοκλήρωσης Παραγγελίας στο βήμα Πληροφοριών Πληρωμής",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Πληρωμές Ιστοσελίδας Φιλοξενημένη Λύση Pro και Γρήγορη Ολοκλήρωση Παραγγελίας",module,Magento_Paypal
@@ -7423,6 +7521,10 @@ User,Χρήστης,module,Magento_Paypal
 "Vault Title","Τίτλος Θάλαμου",module,Magento_Paypal
 "Credit Card Settings","Ρυθμίσεις Πιστωτικής Κάρτας",module,Magento_Paypal
 "Allowed Credit Card Types","Επιτρεπώμενοι τύποι πιστωτικών καρτών",module,Magento_Paypal
+"
+                    Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
+                ","
+Υποστήριξη των American Express καρτών απαιτούν πρόσθετη συμφωνία. Μάθετε περισσότερα στο <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.                ",module,Magento_Paypal
 "CVV and AVS Settings","CVV και AVS ρυθμίσεις",module,Magento_Paypal
 "Reject Transaction if:","Απόρριψη Συναλλαγής εάν:",module,Magento_Paypal
 "AVS Street Does Not Match","AVS Δρόμος Διεύθυνσης Δεν Ταιριάζει",module,Magento_Paypal
@@ -7431,6 +7533,15 @@ User,Χρήστης,module,Magento_Paypal
 "Card Security Code Does Not Match","Ο Κωδικός Ασφαλείας της Κάρτας Δεν Ταιριάζει",module,Magento_Paypal
 "Payflow Pro (Includes Express Checkout)","Payflow Pro (περιλαμβάνει γρήγορη πληρωμή παραγγελίας)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro και Express Checkout",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                     <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Γιατί διαφημίσετε χρηματοδοτήσεις;</a><br/>                         <strong>Ενισχύστε τις πωλήσεις σας όταν μπορείτε να διαφημίσετε χρηματοδότηση.</strong> <br/>Το PayPal βοηθά να μετατρέψει το προγράμματα περιήγησης σε αγοραστές με χρηματοδότηση από το PayPal Credit®. Οι πελάτες σας έχουν περισσότερο χρόνο για να πληρώσουν, ενώ μπορείτε να πληρώνεστε εκ των προτέρων – χωρίς επιπλέον κόστος για εσάς.                         Η Χρήση των δωρεάν διαφημιστικών banners του PayPal σας επιτρέπουν να διαφημιστείτε PayPal Credit® χρηματοδότηση ως μέσο πληρωμής, όταν οι πελάτες σας πληρώνουν με PayPal.                         Το διαφημιστικό πρόγραμμα PayPal έχει αποδειχθεί ότι δημιουργεί πρόσθετες αγορές, καθώς και αύξηση μεγεθών της μέση αγοράς του καταναλωτή κατά 15% <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Δείτε λεπτομέρειες</a>.                ",module,Magento_Paypal
 "Persistent Shopping Cart","Επίμονο καλάθι αγορών",module,Magento_Persistent
 "General Options","Γενικές Επιλογές",module,Magento_Persistent
 "Enable Persistence","Ενεργοποίηση Επιμονής",module,Magento_Persistent
@@ -7540,8 +7651,16 @@ Websites,Ιστοσελίδες,module,Magento_SalesRule
 "Customer Groups","Ομάδες Πελατών",module,Magento_SalesRule
 Coupon,Κουπόνι,module,Magento_SalesRule
 "Use Auto Generation","Χρήση Αυτόματης Δημιουργίας",module,Magento_SalesRule
+"
+                        If you select and save the rule you will be able to generate multiple coupon codes.
+                    ","
+Εάν επιλέξετε και αποθηκεύσετε τον κανόνα, θα είστε σε θέση να δημιουργήσετε πολλαπλούς κωδικούς κουπονιού.                    ",module,Magento_SalesRule
 "Uses per Coupon","Χρήσεις ανά Κουπόνι",module,Magento_SalesRule
 "Uses per Customer","Χρήσεις ανά πελάτη",module,Magento_SalesRule
+"
+                        Usage limit enforced for logged in customers only.
+                    ","
+Όριο χρήσης που επιβάλλεται για συνδεδεμένους πελάτες μόνο.                    ",module,Magento_SalesRule
 From,Από,module,Magento_SalesRule
 To,Έως,module,Magento_SalesRule
 "Public In RSS Feed","Κοινό στην Τροφοδοσία RSS",module,Magento_SalesRule
@@ -7568,7 +7687,14 @@ General,Γενικά,module,Magento_Sales
 "Allow Reorder","Επιτρέψτε Αναπαραγγελία",module,Magento_Sales
 "Invoice and Packing Slip Design","Τιμολόγιο και Σχέδιο Δελτίου Συσκευασίας",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Λογότυπο για PDF Print-outs (200 x 50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","                        Το προεπιλεγμένο λογότυπο σας θα χρησιμοποιηθεί στα έγγραφα PDF και HTML. < br />(jpeg, tiff, png) Αν η εικόνα PDF είναι παραμορφωμένη, προσπαθήστε να χρησιμοποιήσετε μεγαλύτερο μεγέθους αρχείο εικόνας.                    ",module,Magento_Sales
 "Logo for HTML Print View","Λογότυπο για προβολή HTML Εκτύπωσης",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+Λογότυπο για έγγραφα HTML μόνο. Εάν είναι κενό, η προεπιλογή θα χρησιμοποιηθεί. < br />(jpeg, gif, png)                    ",module,Magento_Sales
 Address,Διεύθυνση,module,Magento_Sales
 "Minimum Order Amount","Ελάχιστο Ποσό Παραγγελίας",module,Magento_Sales
 Enable,Ενεργοποίηση,module,Magento_Sales
@@ -7838,7 +7964,7 @@ Configuration,"Ρύθμιση παραμέτρων",module,Magento_Theme
 "Default Title","Προεπιλεγμένος τίτλος",module,Magento_Theme
 "Title Prefix","Πρόθεμα Τίτλου",module,Magento_Theme
 "Title Suffix","Κατάληξη Τίτλου",module,Magento_Theme
-"Default Keywords","Προεπιλεγμένες Λέξεις-κλειδιά",module,Magento_Theme
+"Default Keywords","Προεπιλεγμένες Λέξεις-κλειδιά ",module,Magento_Theme
 "Scripts and Style Sheets","Δέσμες Εντολών και Φύλλα Στυλ",module,Magento_Theme
 "Display Demo Store Notice","Ειδοποίηση επίδειξης Καταστήματος Δοκιμής",module,Magento_Theme
 Header,Κεφαλίδα,module,Magento_Theme
@@ -7912,6 +8038,7 @@ Edit,Επεξεργασία,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Θα απενεργοποιήσουμε αυτήν τη δυνατότητα, εάν η τιμή είναι κενή.",module,Magento_User
 "Lockout Time (minutes)","Χρόνος Κλειδώματος (λεπτά)",module,Magento_User
 "Password Lifetime (days)","Διάρκεια Ζωής Κωδικού (ημέρες)",module,Magento_User
+"We will disable this feature if the value is empty. ","Θα απενεργοποιήσουμε αυτήν τη δυνατότητα, εάν η τιμή είναι κενή. ",module,Magento_User
 "Password Change","Αλλαγή κωδικού πρόσβασης",module,Magento_User
 Unlock,Ξεκλείδωμα,module,Magento_User
 Username,"Όνομα Χρήστη",module,Magento_User
@@ -8006,6 +8133,3 @@ Action,Ενέργεια,module,Magento_Wishlist
 Configure,Ρύθμιση,module,Magento_Wishlist
 Delete,Διαγραφή,module,Magento_Wishlist
 "Product Details and Comment","Λεπτομέρειες και Σχόλια Προϊόντος",module,Magento_Wishlist
-"Account Dashboard","Πίνακας Λογαριασμού",theme,frontend/Magento/luma
-"Account Information","Πληροφορίες Λογαριασμού",theme,frontend/Magento/luma
-"Address Book","Βιβλίο Διευθύνσεων",theme,frontend/Magento/luma
