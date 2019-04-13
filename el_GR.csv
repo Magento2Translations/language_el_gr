@@ -25,6 +25,7 @@ major,σημαντικά,module,Magento_AdminNotification
 minor,μικρότερα,module,Magento_AdminNotification
 notice,ανακοίνωση,module,Magento_AdminNotification
 "Wrong message type","Λάθος τύπος μηνύματος",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Ένα ή περισσότερα από τα Είδη της Cache δεν είναι ενημερωμένα: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Παρακαλούμε πηγαίνετε στο <a href=""%1"">Διαχείριση Cache</a> και ανανεώστε τα είδη της cache.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Συγχρονισμός των αποθηκών μέσων έχει ολοκληρωθεί.",module,Magento_AdminNotification
 "Close popup","Κλείσιμο αναδυόμενου",module,Magento_AdminNotification
@@ -184,6 +185,7 @@ To,Έως,module,Magento_Backend
 "Date selector","Επιλογέας ημερομηνίας",module,Magento_Backend
 "[ deleted ]","[ διεγράφη ]",module,Magento_Backend
 "Select All","Επιλογή όλων",module,Magento_Backend
+" [deleted]"," [διεγράφη]",module,Magento_Backend
 "Add New","Προσθήκη Νέου",module,Magento_Backend
 Export,Εξαγωγή,module,Magento_Backend
 "Please correct the column format and try again.","Παρακαλώ διορθώστε τη μορφή της στήλης, και προσπαθήστε ξανά.",module,Magento_Backend
@@ -232,6 +234,7 @@ System,Σύστημα,module,Magento_Backend
 "The website does not exist.","Αυτή η ιστοσελίδα δεν υπάρχει.",module,Magento_Backend
 "The store does not exist","Το κατάστημα δεν υπάρχει",module,Magento_Backend
 "Store view doesn't exist","Η προβολή καταστήματος δεν υπάρχει",module,Magento_Backend
+"New ","Νέο ",module,Magento_Backend
 "Last 24 Hours","Τελευταίες 24 ώρες",module,Magento_Backend
 "Last 7 Days","Τελευταίες 7 ημέρες",module,Magento_Backend
 "Current Month","Τρέχων μήνας",module,Magento_Backend
@@ -353,11 +356,11 @@ Country,Χώρα,module,Magento_Braintree
 "My Credit Cards","Οι Πιστωτικές Κάρτες μου",module,Magento_Braintree
 "There was error during saving card data","Παρουσιάστηκε σφάλμα κατά την αποθήκευση των δεδομένων της κάρτας",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Η συναλλαγή ακυρώθηκε από την πύλη: Ελέγξτε τα στοιχεία της κάρτας ή δοκιμάστε μια άλλη κάρτα",module,Magento_Braintree
+"Transaction declined: ","Η συναλλαγή απορρίφθηκε: ",module,Magento_Braintree
 "Credit card type is not allowed for your country.","Ο τύπος πιστωτικής κάρτας δεν επιτρέπεται για τη χώρα σας.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Ο τύπος πιστωτικής κάρτας δεν επιτρέπεται για αυτήν τη μέθοδο πληρωμής.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Ο επιλεγμένος τύπος πληρωμής δεν επιτρέπεται για τιμολόγηση σε αυτήν την χώρα.",module,Magento_Braintree
 "Please try again later","Παρακαλώ δοκιμάστε ξανά αργότερα",module,Magento_Braintree
-"This refund is for a partial amount but the Transaction has not settled.","Αυτή η επιστροφή είναι για μια μερική ποσότητα αλλά η συναλλαγή δεν έχει διευθετηθεί.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Περιμένετε 24 ώρες πρίν προσπαθήσετε να εκδώσετε μια μερική επιστροφή χρημάτων.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Ορισμένες συναλλαγές είναι ήδη σε διευθέτηση ή ακυρώθηκαν και δεν μπορούν να ακυρωθούν.",module,Magento_Braintree
 "Invalid Customer ID provided","Μη έγκυρο ID πελάτη που δόθηκε",module,Magento_Braintree
@@ -904,6 +907,7 @@ Role,Ρόλος,module,Magento_Catalog
 "Unselect All","Αποεπιλογή όλων",module,Magento_Catalog
 "Select Visible","Επιλογή Ορατών",module,Magento_Catalog
 "Unselect Visible","Αποεπιλογή Ορατών",module,Magento_Catalog
+"Buy %1 for: ","Αγοράστε %1 για: ",module,Magento_Catalog
 "Shop By","Αγορά κατά",module,Magento_Catalog
 "Shopping Options","Επιλογες Αγορων",module,Magento_Catalog
 "Compare Products","Σύγκριση Προϊόντων",module,Magento_Catalog
@@ -1326,7 +1330,6 @@ Change,Αλλαγή,module,Magento_Customer
 "Contact Information","Στοιχεία Επικοινωνίας",module,Magento_Customer
 "Change Password","Αλλαγή Κωδικού Πρόσβασης",module,Magento_Customer
 Newsletters,"Ενημερωτικά Δελτία",module,Magento_Customer
-or,ή,module,Magento_Customer
 "Default Addresses","Προεπιλεγμένες Διευθύνσεις",module,Magento_Customer
 "Change Billing Address","Αλλάξτε τη Διεύθυνση Χρέωσης",module,Magento_Customer
 "You have no default billing address in your address book.","Δεν έχετε καμία προεπιλεγμένη διεύθυνση χρέωσης στο βιβλίο διευθύνσεών σας.",module,Magento_Customer
@@ -1998,6 +2001,7 @@ Paused,"Σε παύση",module,Magento_Newsletter
 "Newsletter Message Preview","Προεπισκόπηση Μηνύματος Ενημερωτικού Δελτίου",module,Magento_Newsletter
 "Add to Queue","Προσθήκη στην ουρά",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Είστε βέβαιοι ότι θέλετε να αφαιρέσετε όλες τις ετικέτες;",module,Magento_Newsletter
+" Copy"," Αντιγραφή",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Εγγραφή στο Ενημερωτικό Δελτίο:",module,Magento_Newsletter
 "Enter your email address","Εισάγετε την ηλεκτρονική σας διεύθυνση",module,Magento_Newsletter
 Subscribe,Εγγραφή,module,Magento_Newsletter
@@ -2071,6 +2075,7 @@ No,Όχι,module,Magento_Payment
 "Switch/Solo/Maestro Only","Switch/Solo/Maestro Μόνο",module,Magento_Payment
 "Issue Number","Αριθμός Έκδοσης",module,Magento_Payment
 "Start Date","Ημερομηνία έναρξης",module,Magento_Payment
+" is not available. You still can process offline actions."," δεν είναι διαθέσιμο. Μπορείτε ακόμα να επεξεργαστείτε μη συνδεδεμένες ενέργειες.",module,Magento_Payment
 "--Please Select--","--Παρακαλώ επιλέξτε--",module,Magento_Payment
 "Card Verification Number Visual Reference","Οπτική αναφορά αριθμού επαλήθευσης κάρτας",module,Magento_Payment
 "What is this?","Τι είναι αυτό;",module,Magento_Payment
@@ -2290,6 +2295,7 @@ Funding,Χρηματοδότηση,module,Magento_Paypal
 "General (Purchase with a credit card)","Γενικό (πληρωμή με πιστωτική κάρτα)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Γενική ρύθμιση χωρίς εμπορικά σχετικά γεγονός",module,Magento_Paypal
 "General Currency Conversion","Γενική Μετατροπή Νομίσματος",module,Magento_Paypal
+"General Funding of PayPal Account ","Γενική Χρηματοδότηση Λογαριασμού PayPal ",module,Magento_Paypal
 "General Redemption","Γενική Εξαργύρωση",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Γενικά Ανάληψη από Λογαριασμό PayPal",module,Magento_Paypal
 "General. Product no longer supported","Γενικα. Προϊόν δεν υποστηρίζεται πλέον",module,Magento_Paypal
@@ -2355,11 +2361,15 @@ Daily,Καθημερινά,module,Magento_Paypal
 Customer,Πελάτης,module,Magento_Paypal
 "Created At","Δημιουργήθηκε στις",module,Magento_Paypal
 "Updated At","Ενημερώθηκε στις",module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Δεν είστε σίγουροι ποια μέθοδο πληρωμής PayPal να χρησιμοποιήσετε; Κάντε κλικ ",module,Magento_Paypal
 here,εδώ,module,Magento_Paypal
+" to learn more."," για να μάθετε περισσότερα.",module,Magento_Paypal
+"Important: ","Σημαντικό: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Για να χρησιμοποιήσετε το PayPal Payments Advanced, πρέπει να ρυθμίσετε το PayPal Payments Advanced λογαριασμό σας στην ιστοσελίδα PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Μόλις συνδεθείτε στο λογαριασμό σας PayPal για προχωρημένους, μεταβείτε στο μενού Ρυθμίσεις Υπηρεσίας - Φιλοξενία Σελίδων Ολοκλήρωσης Παραγγελίας - Ρυθμίσεις Μενού και ορίστε τις επιλογές που περιγράφονται παρακάτω",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Για να χρησιμοποιήσετε το σύνδεσμο PayPal Payflow, πρέπει να ρυθμίσετε το σύνδεσμο λογαριασμού σας PayPal Payflow στην ιστοσελίδα του PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Μόλις συνδεθείτε στο σύνδεσμο λογαριασμού σας PayPal Payflow, μεταβείτε στο μενού Ρυθμίσεις Υπηρεσίας - Φιλοξενία Σελίδων Ολοκλήρωσης Παραγγελίας - Ρυθμίσεις Μενού και ορίστε τις επιλογές που περιγράφονται παρακάτω",module,Magento_Paypal
+"Billing Agreement # ","Συμφωνία Χρέωσης # ",module,Magento_Paypal
 "Agreement Information","Πληροφορίες Συμφωνίας",module,Magento_Paypal
 "Reference ID:","ID Αναφοράς:",module,Magento_Paypal
 Status:,Κατάσταση:,module,Magento_Paypal
@@ -2379,6 +2389,7 @@ View,Προβολή,module,Magento_Paypal
 "You will be redirected to the payment system website.","Θα μεταφερθείτε στην ιστοσελίδα του συστήματος πληρωμών.",module,Magento_Paypal
 "-- Please Select --","--Παρακαλώ επιλέξτε--",module,Magento_Paypal
 Create...,Δημιουργία...,module,Magento_Paypal
+"Your billing agreement # is: ","Η συμφωνία χρέωσής σας # είναι: ",module,Magento_Paypal
 "Shipping Method","Μέθοδος Αποστολής",module,Magento_Paypal
 "Please select a shipping method...","Παρακαλώ επιλέξτε μία μέθοδο αποστολής...",module,Magento_Paypal
 "Update Shipping Method","Ενημέρωση τρόπου αποστολής",module,Magento_Paypal
@@ -2981,6 +2992,7 @@ Reorder,"Επανάληψη της παραγγελίας",module,Magento_Sales
 "Order # %1 %2 | %3","Παραγγελία # %1 %2 | %3",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Είσαι σίγουρος; Αυτή η σειρά θα ακυρωθεί και θα δημιουργηθεί μία νέα αντί αυτης.",module,Magento_Sales
 "Save Gift Message","Αποθηκεύστε το Μήνυμα Δώρου",module,Magento_Sales
+" [deleted]"," [διεγράφη]",module,Magento_Sales
 "Order Credit Memos","Πιστωτικά Υπομνήματα Παραγγελίας",module,Magento_Sales
 "Credit memo #%1 created","Δημιουργήθηκε το πιστωτικό υπόμνημα #%1",module,Magento_Sales
 "Credit memo #%1 comment added","Σχόλιο πιστωτικού υπομνήματος #%1 προστέθηκε",module,Magento_Sales
@@ -3087,6 +3099,8 @@ Home,Αρχική,module,Magento_Sales
 "Go to Home Page","Μετάβαση στην Αρχική Σελίδα",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Δεν μπορούμε να προσθέσουμε ένα προϊόν στο καλάθι με ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Υπάρχει σφάλμα σε μία από τις σειρές επιλογής.",module,Magento_Sales
+"Shipping Address: ","Διεύθυνση Αποστολής: ",module,Magento_Sales
+"Billing Address: ","Διεύθυνση Χρέωσης: ",module,Magento_Sales
 "This payment method is not available.","Αυτή η μέθοδος πληρωμής δεν είναι διαθέσιμη.",module,Magento_Sales
 "A hold action is not available.","Μια ενέργεια αναμονής δεν είναι διαθέσιμη.",module,Magento_Sales
 "You cannot remove the hold.","Δεν μπορείτε να καταργήσετε την αναμονή.",module,Magento_Sales
@@ -3142,6 +3156,8 @@ Mixed,Ανάμεικτο,module,Magento_Sales
 Order,Παραγγελία,module,Magento_Sales
 Authorization,Εξουσιοδότηση,module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Βρήκαμε ένα είδος συναλλαγής που δεν υποστηρίζεται ""%1"".",module,Magento_Sales
+"Order # ","Παραγγελία # ",module,Magento_Sales
+"Order Date: ","Ημ/νία Παραγγελίας: ",module,Magento_Sales
 "Sold to:","Πωλήθηκε σε:",module,Magento_Sales
 "Ship to:","Αποστολή σε:",module,Magento_Sales
 "Payment Method:","Μέθοδος Πληρωμής:",module,Magento_Sales
@@ -3155,6 +3171,8 @@ Products,Προϊόντα,module,Magento_Sales
 "Total (ex)","Σύνολο (χωρίς)",module,Magento_Sales
 Qty,Ποσότητα,module,Magento_Sales
 "Total (inc)","Σύνολο (με)",module,Magento_Sales
+"Credit Memo # ","Πιστωτικό Υπόμνημα # ",module,Magento_Sales
+"Invoice # ","Παραστατικό # ",module,Magento_Sales
 "The order object is not specified.","Δεν έχει καθοριστεί το αντικείμενο παραγγελιας.",module,Magento_Sales
 "The source object is not specified.","Το αντικείμενο προέλευσης δεν έχει καθοριστεί.",module,Magento_Sales
 "An item object is not specified.","Ένα αντικείμενο στοιχείου δεν έχει καθοριστεί.",module,Magento_Sales
@@ -3162,6 +3180,7 @@ Qty,Ποσότητα,module,Magento_Sales
 "A PDF page object is not specified.","Ένα αντικείμενο σελίδας PDF δεν έχει καθοριστεί.",module,Magento_Sales
 "Excl. Tax","Χωρίς ΦΠΑ",module,Magento_Sales
 "Incl. Tax","Με ΦΠΑ",module,Magento_Sales
+"Packing Slip # ","Συσκευασίας Slip # ",module,Magento_Sales
 title,τίτλος,module,Magento_Sales
 "We cannot register an existing shipment","Δεν μπορούμε να καταχωρήσουμε μια υπάρχουσα αποστολή",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Το συνολικό μοντέλο πρέπει να παραταθεί από \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
@@ -3454,7 +3473,10 @@ SKU,Κωδικός,module,Magento_Shipping
 "Tracking Number:","Αριθμός Εντοπισμού:",module,Magento_Shipping
 Carrier:,Πάροχος:,module,Magento_Shipping
 Error:,Σφάλμα:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Πληροφορίες Παρακολούθησης δεν είναι διαθέσιμες. Παρακαλώ ",module,Magento_Shipping
 "contact us","επικοινωνήστε μαζί μας",module,Magento_Shipping
+" for more information or "," για περισσότερες πληροφορίες ή ",module,Magento_Shipping
+"email us at ","Επικοινωνήστε μαζί μας στο ",module,Magento_Shipping
 Info:,Πληροφορίες:,module,Magento_Shipping
 Track:,Κομμάτι:,module,Magento_Shipping
 Status:,Κατάσταση:,module,Magento_Shipping
@@ -3600,7 +3622,12 @@ Total,Σύνολο,module,Magento_Tax
 "Including Tax","Περιλαμβάνει Φόρο",module,Magento_Tax
 None,Κανένα,module,Magento_Tax
 "Including and Excluding Tax","Με και Χωρίς Φόρο",module,Magento_Tax
+"Warning tax configuration can result in rounding errors. ","Προειδοποίηση ρύθμιση παραμέτρων φόρου μπορεί να οδηγήσει σε σφάλματα στρογγυλοποίησης. ",module,Magento_Tax
+"Store(s) affected: ","Κατάστημα(τα) που επηρεάζονται: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Κάντε κλικ στο σύνδεσμο για να <a href=""%1""> παραβλέψετε αυτήν την ειδοποίηση</a>",module,Magento_Tax
+"Warning tax discount configuration might result in different discounts
+                                than a customer might expect. ","Προειδοποίηση η έκπτωση φόρου μπορεί να οδηγήσει σε διαφορετικές εκπτώσεις                                από αυτές που αναμένει κάποιος πελάτης. ",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Παρακαλώ ανατρέξτε στην <a href=""%1""> τεκμηρίωση</a> για περισσότερες λεπτομέρειες. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Κάντε κλικ εδώ για να μεταβείτε <a href=""%1"">Ρύθμιση παραμέτρων φόρου</a> και να αλλάξετε τις ρυθμίσεις.",module,Magento_Tax
 "customer group","ομάδα πελατών",module,Magento_Tax
 product,προϊόν,module,Magento_Tax
@@ -4003,7 +4030,6 @@ Back,Επιστροφή,module,Magento_Wishlist
 "Remove This Item","Διαγραφή Αυτού του Είδους",module,Magento_Wishlist
 "Go to Wish List","Πηγαίντε στη Λίστα Επιθυμιών",module,Magento_Wishlist
 "You have no items in your wish list.","Δεν έχετε προϊόντα στην λίστα επιθυμιών σας.",module,Magento_Wishlist
-"Shop By","Αγορά Ανά",theme,frontend/Magento/luma
 Total:,Σύνολο:,module,Magento_Checkout
 "Add Products to New Option","Προσθέστε Προϊόντα σε Νέα Επιλογή",module,Magento_Bundle
 "Add Products to Option ""%1""","Προσθέστε Προϊόντα στην Επιλογή ""%1""",module,Magento_Bundle
@@ -4028,6 +4054,7 @@ Allow,"Να επιτρέπεται",module,Magento_Integration
 Done,Επιτυχής,module,Magento_Integration
 "Sorry, something went wrong.","Συγνώμη, κάτι πήγε λάθος.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Λυπούμαστε, κάτι πήγε στραβά. Παρακαλώ προσπαθήστε ξανά αργότερα.",module,Magento_Paypal
+"Gift Options for ","Επιλογές Δώρου για ",module,Magento_Sales
 "Add Products","Προσθέστε προϊόντα",module,Magento_Sales
 Ok,Οκ,module,Magento_Sales
 "We don't recognize this file extension.","Δεν αναγνωρίζουμε αυτή την κατάληξη αρχείου.",module,Magento_Theme
@@ -4073,6 +4100,10 @@ Advanced,Προηγμένες,module,Magento_Backend
 Design,Σχεδίαση,module,Magento_Backend
 "Design Theme","Σχεδιαστικό θέμα",module,Magento_Backend
 "User-Agent Exceptions","User-Agent εξαιρέσεις",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+Συμβολοσειρές αναζήτησης είναι είτε κανονικές συμβολοσειρές ή τακτικές εξαιρέσεις (PCRE). Ταιριάζουν με την ίδια σειρά όπως τέθηκε. Παραδείγματα: <br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Βρείτε μια συμβολοσειρά στο user-agent κεφαλίδας πελάτη και μεταβείτε σε θέμα ειδικού σχεδιασμού για το συγκεκριμένο πρόγραμμα περιήγησης.",module,Magento_Backend
 Pagination,Σελιδοποίηση,module,Magento_Backend
 "Pagination Frame","Πλαίσιο Σελιδοποίησης",module,Magento_Backend
@@ -4157,6 +4188,10 @@ Security,Ασφάλεια,module,Magento_Backend
 "Enable Charts","Ενεργοποίηση Διαγραμμάτων",module,Magento_Backend
 "Url Options","Επιλογές URL",module,Magento_Backend
 "Add Store Code to Urls","Προσθέστε Κώδικα Καταστήματος στις Διευθύνσεις Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> Προειδοποίηση!</strong> Όταν χρησιμοποιείτε κώδικα καταστήματος σε διευθύνσεις URLs, σε ορισμένες περιπτώσεις συστήματος ενδέχεται να μην λειτουργούν σωστά εάν οι διευθύνσεις URL χωρίς κωδικούς καταστήματος καθορίζονται στις υπηρεσίες τρίτων (π.χ. PayPal κτλ.).                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Αυτόματη-ανακατεύθυνση σε διεύθυνση URL βάσης",module,Magento_Backend
 "Search Engine Optimization","Βελτιστοποίηση Μηχανών Αναζήτησης (SEO)",module,Magento_Backend
 "Use Web Server Rewrites","Χρήση Web Server Rewrites",module,Magento_Backend
@@ -4239,6 +4274,9 @@ Forms,Φόρμες,module,Magento_Captcha
 "Number of Symbols","Αριθμός Συμβόλων",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Παρακαλώ να προσδιορίσετε το πολύ 8 σύμβολα. Επιτρεπόμενο εύρος (π.χ. 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Σύμβολα που Χρησιμοποιούνται στο CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","                         Παρακαλώ χρησιμοποιήστε μόνο γράμματα (a-z ή Α-Z) ή αριθμούς (0-9) στο πεδίο αυτό. Κενά διαστήματα ή άλλοι χαρακτήρες δεν επιτρέπονται. < br / > Παρόμοιας μορφής χαρακτήρες (π.χ. «i», ""l"", ""1"") μειώνουν την πιθανότητα σωστής αναγνώρισης από τον πελάτη.                     ",module,Magento_Captcha
 "Case Sensitive","Διάκριση Πεζών-Κεφαλαίων",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ενεργοποίηση CAPTCHA στο Κατάστημα",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Η επιβεβαίωση CAPTCHA για τις φόρμες ""Δημιουργία χρήστη"" και ""Υπενθύμιση κωδικού"" θα είναι πάντα ενεργοποιημένη, αν επιλεχθεί.",module,Magento_Captcha
@@ -4251,6 +4289,10 @@ Inventory,Απόθεμα,module,Magento_CatalogInventory
 "Only X left Threshold","Όριο για Μόνο X απόμειναν",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Εμφάνιση διαθεσιμότητας των προϊόντων σε απόθεμα στην βιτρίνα καταστήματος.",module,Magento_CatalogInventory
 "Product Stock Options","Επιλογές Αποθέματος Προϊόντων",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+Παρακαλείστε να σημειώσετε ότι αυτές οι ρυθμίσεις ισχύουν για μεμονωμένα αντικείμενα στο καλάθι, όχι για ολοκληρο το καλάθι.                ",module,Magento_CatalogInventory
 "Manage Stock","Διαχείριση Αποθεμάτων",module,Magento_CatalogInventory
 Backorders,Προπαραγγελίες,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Μέγιστη ποσότητα που επιτρέπεται στο καλάθι αγορών",module,Magento_CatalogInventory
@@ -4410,6 +4452,7 @@ Contacts,Επαφές,module,Magento_Contact
 "Email Template","Πρότυπα Email",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Προγραμματισμένες Εργασίες) - όλοι οι χρόνοι είναι σε λεπτά",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Για σωστές διευθύνσεις URL που δημιουργούνται κατά τη διάρκεια cron που τρέχουν παρακαλώ σιγουρευτείτε ότι Web > ασφαλές και μη ασφαλές URL βάσης ορίζονται ρητά.",module,Magento_Cron
+"Cron configuration options for group: ","Cron επιλογές ρύθμισης παραμέτρων για την ομάδα: ",module,Magento_Cron
 "Generate Schedules Every","Δημιουργήσετε χρονοδιαγράμματα κάθε",module,Magento_Cron
 "Schedule Ahead for","Προγραμματισμένη μπροστά για",module,Magento_Cron
 "Missed if Not Run Within","Αποτυγχάνει εάν δεν εκτελεστεί εντός",module,Magento_Cron
@@ -4453,6 +4496,10 @@ Contacts,Επαφές,module,Magento_Contact
 "Show Prefix","Εμφάνιση προθέματος",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Ο τίτλος που πάει πριν από το όνομα (Κος, κα, κτλ.)",module,Magento_Customer
 "Prefix Dropdown Options","Επιλογές Αναπτυσσόμενου μενού Προθέματος",module,Magento_Customer
+"
+                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
+                    ","
+Το ερωτηματικό (;) διαχωρίζει τιμές. <br/> Βάλτε ερωτηματικό στην αρχή για την κενή πρώτη επιλογή. <br/> Αφήστε κενό για άνοιχτό πεδίο κειμένου.                    ",module,Magento_Customer
 "Show Middle Name (initial)","Εμφάνιση πατρώνυμο (αρχικό)",module,Magento_Customer
 "Always optional.","Πάντα προαιρετική.",module,Magento_Customer
 "Show Suffix","Εμφάνιση επιθέματος",module,Magento_Customer
@@ -4521,6 +4568,10 @@ Debug,Αποσφαλμάτωση,module,Magento_Dhl
 "Currency Setup","Εγκατάσταση Νομίσματος",module,Magento_Directory
 "Currency Options","Επιλογές Νομίσματος",module,Magento_Directory
 "Base Currency","Βασικό Νόμισμα",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+Το βασικό νόμισμα χρησιμοποιείται για όλες τις συναλλαγές ηλεκτρονικών πληρωμών. Εάν έχετε περισσότερα από ένα κατάστημα προβολής, το πεδίο εφαρμογής της νομισματικής βάσης ορίζεται από το πεδίο τιμής καταλόγου (""Κατάλογος"" > ""Τιμή"" > ""Πεδίο τιμής καταλόγου"").                    ",module,Magento_Directory
 "Default Display Currency","Προεπιλεγμένη Προβολή Νομίσματος",module,Magento_Directory
 "Allowed Currencies","Επιτρεπόμενα Νομίσματα",module,Magento_Directory
 "Connection Timeout in Seconds","Χρονικό όριο σύνδεσης σε δευτερόλεπτα",module,Magento_Directory
@@ -4710,12 +4761,17 @@ Import,Εισαγωγή,module,Magento_OfflineShipping
 "Backend port","Θύρα παρασκηνίου",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Καθορίστε μία πόρτα εξυπηρετητή παρασκηνίου για τη δημιουργία του αρχείου ρυθμίσεων. Αν το πεδίο είναι κενό η προεπιλεγμένη αξία 8080 θα αποθηκευτεί.",module,Magento_PageCache
 "TTL for public content","TTL για δημόσιο περιεχόμενο",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Χρονική διάρκεια δημόσιου περιεχόμενου της προσωρινής μνήμης σε δευτερόλεπτα. Αν το πεδίο είναι κενό θα αποθηκευτεί προεπιλεγμένη τιμή 86400. ",module,Magento_PageCache
 "Page Cache","Cache Σελίδας",module,Magento_PageCache
 "Full page caching.","Αποθήκευση προσωρινής μνήμης πλήρης σελίδας.",module,Magento_PageCache
 "Payment Methods","Τρόποι Πληρωμής",module,Magento_Payment
 "Merchant Location","Τοποθεσία Εμπόρου",module,Magento_Paypal
 "Merchant Country","Χώρα Εμπόρου",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Εάν δεν καθοριστεί, θα χρησιμοποιηθεί προεπιλεγμένη χώρα από Γενική Ρύθμιση",module,Magento_Paypal
+"
+                    PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
+                ","
+Λύσεις πληρωμής PayPal All-in-One&nbsp;&nbsp;<i>Αποδοχή και Επεξεργασία Πιστωτικών Κάρτών και πληρωμών PayPal.</i>                ",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Επιλέξτε μια συνδυαστική λύση ασφαλών πληρωμών για την επιχείρησή σας.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Payments Pro και Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Βασικές Ρυθμίσεις - Πληρωμές PayPal Pro",module,Magento_Paypal
@@ -4918,7 +4974,14 @@ General,Γενικά,module,Magento_Sales
 "Allow Reorder","Επιτρέψτε Αναπαραγγελία",module,Magento_Sales
 "Invoice and Packing Slip Design","Τιμολόγιο και Σχέδιο Δελτίου Συσκευασίας",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Λογότυπο για PDF Print-outs (200 x 50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","                        Το προεπιλεγμένο λογότυπο σας θα χρησιμοποιηθεί στα έγγραφα PDF και HTML. < br />(jpeg, tiff, png) Αν η εικόνα PDF είναι παραμορφωμένη, προσπαθήστε να χρησιμοποιήσετε μεγαλύτερο μεγέθους αρχείο εικόνας.                    ",module,Magento_Sales
 "Logo for HTML Print View","Λογότυπο για προβολή HTML Εκτύπωσης",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+Λογότυπο για έγγραφα HTML μόνο. Εάν είναι κενό, η προεπιλογή θα χρησιμοποιηθεί. < br />(jpeg, gif, png)                    ",module,Magento_Sales
 Address,Διεύθυνση,module,Magento_Sales
 "Minimum Order Amount","Ελάχιστο Ποσό Παραγγελίας",module,Magento_Sales
 Enable,Ενεργοποίηση,module,Magento_Sales
@@ -5101,7 +5164,7 @@ Empty,Κενό,module,Magento_Theme
 "Title Prefix","Πρόθεμα Τίτλου",module,Magento_Theme
 "Title Suffix","Κατάληξη Τίτλου",module,Magento_Theme
 "Default Description","Προεπιλεγμένη Περιγραφή",module,Magento_Theme
-"Default Keywords","Προεπιλεγμένες Λέξεις-κλειδιά",module,Magento_Theme
+"Default Keywords","Προεπιλεγμένες Λέξεις-κλειδιά ",module,Magento_Theme
 "Miscellaneous Scripts","Διάφορα σενάρια",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Αυτό θα συμπεριληφθεί πριν από το κλείσιμο ετικέτας κεφαλίδας στη σελίδα HTML.",module,Magento_Theme
 "Display Demo Store Notice","Ειδοποίηση επίδειξης Καταστήματος Δοκιμής",module,Magento_Theme
@@ -5168,6 +5231,7 @@ Edit,Επεξεργασία,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Θα απενεργοποιήσουμε αυτήν τη δυνατότητα, εάν η τιμή είναι κενή.",module,Magento_User
 "Lockout Time (minutes)","Χρόνος Κλειδώματος (λεπτά)",module,Magento_User
 "Password Lifetime (days)","Διάρκεια Ζωής Κωδικού (ημέρες)",module,Magento_User
+"We will disable this feature if the value is empty. ","Θα απενεργοποιήσουμε αυτήν τη δυνατότητα, εάν η τιμή είναι κενή. ",module,Magento_User
 "Password Change","Αλλαγή κωδικού πρόσβασης",module,Magento_User
 Unlock,Ξεκλείδωμα,module,Magento_User
 Username,"Όνομα Χρήστη",module,Magento_User
@@ -5236,4 +5300,3 @@ Action,Ενέργεια,module,Magento_Wishlist
 Configure,Ρύθμιση,module,Magento_Wishlist
 Delete,Διαγραφή,module,Magento_Wishlist
 "Product Details and Comment","Λεπτομέρειες και Σχόλια Προϊόντος",module,Magento_Wishlist
-Summary,Περίληψη,theme,frontend/Magento/blank
